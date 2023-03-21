@@ -28,7 +28,7 @@ def scrape_jobs(url):
             jobs = driver.find_element(By.XPATH, "//div[contains(@class, 'jobListingCardsContainer')]")
 
             jobs = jobs.find_elements(By.XPATH, "//div[contains(@class, 'jobListingCard-')]")
-
+            print("job count: " + str(len(jobs)))
             for job in jobs:
                 title = job.find_element(By.XPATH, ".//h2[contains(@class, 'jobListingCardTitle')]").text
                 company = job.find_element(By.XPATH, ".//p[contains(@class, 'companynameAndRating')]/span").text
