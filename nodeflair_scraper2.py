@@ -62,7 +62,7 @@ def scrape_jobs(url):
             break
 
     driver.quit()
-
+    job_data.append({"job_count": len(jobs)})
     return job_data
 
 
