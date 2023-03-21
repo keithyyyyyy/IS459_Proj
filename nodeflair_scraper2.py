@@ -33,20 +33,20 @@ def scrape_jobs(url):
                 company = job.find_element(By.XPATH, ".//p[contains(@class, 'companynameAndRating')]/span").text
                 country = job.find_element(By.XPATH, ".//div[contains(@class, 'country')]").text
                 stacks = job.find_elements(By.XPATH, ".//span[contains(@class, 'techStackContainer')]")
-                stacks_array = []
-                for stack in stacks:
-                    stacks_array.append(stack.text)
-                salary = job.find_elements(By.XPATH, ".//span[contains(@class, 'salary')]")
-                salary_amt = "Empty"
-                if salary:
-                    salary_amt = salary[0].text
-                job_data.append({
-                    'company': company,
-                    'title': title,
-                    'country': country,
-                    'stacks': stacks_array,
-                    'salary': salary_amt
-                })
+                # stacks_array = []
+                # for stack in stacks:
+                #     stacks_array.append(stack.text)
+                # salary = job.find_elements(By.XPATH, ".//span[contains(@class, 'salary')]")
+                # salary_amt = "Empty"
+                # if salary:
+                #     salary_amt = salary[0].text
+                # job_data.append({
+                #     'company': company,
+                #     'title': title,
+                #     'country': country,
+                #     'stacks': stacks_array,
+                #     'salary': salary_amt
+                # })
 
             next_button = driver.find_elements(By.XPATH, "//a[contains(@class, 'page-link')]")[5]
 
