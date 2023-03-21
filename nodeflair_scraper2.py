@@ -48,14 +48,14 @@ def scrape_jobs(url):
                     'stacks': stacks_array,
                     'salary': salary_amt
                 })
+            break
+            # next_button = driver.find_elements(By.XPATH, "//a[contains(@class, 'page-link')]")[5]
 
-            next_button = driver.find_elements(By.XPATH, "//a[contains(@class, 'page-link')]")[5]
-
-            if 'disabled' in next_button.get_attribute('class'):
-                break
-            else:
-                next_button.click()
-                time.sleep(2)
+            # if 'disabled' in next_button.get_attribute('class'):
+            #     break
+            # else:
+            #     next_button.click()
+            #     time.sleep(2)
 
         except Exception as e:
             print(f"Error occurred: {e}")
