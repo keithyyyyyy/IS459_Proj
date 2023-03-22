@@ -63,7 +63,7 @@ def scrape_jobs(url):
             next_button = driver.find_elements(By.XPATH, "//a[contains(@class, 'page-link')]")[-2]
             print(current_button)
 
-            if 'disabled' in next_button.get_attribute('class') or current_button == "15":
+            if 'disabled' in next_button.get_attribute('class') or current_button == "1":
                 break
             else:
                 next_button.click()
