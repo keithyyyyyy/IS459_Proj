@@ -78,7 +78,7 @@ def scrape_jobs(url):
     return job_data
 
 if __name__ == "__main__":
-    url = "https://nodeflair.com/jobs?query=software&page=1&sort_by=relevant&seniorities%5B%5D=junior"
+    url = "https://nodeflair.com/jobs?query=software&page=1&sort_by=relevant&positions%5B%5D=full_stack_developer&positions%5B%5D=backend_developer&positions%5B%5D=frontend_developer&positions%5B%5D=gaming_engineer&positions%5B%5D=blockchain_engineer&positions%5B%5D=android_developer&positions%5B%5D=ios_developer&positions%5B%5D=mobile_developer&positions%5B%5D=data_analyst&positions%5B%5D=data_engineer&positions%5B%5D=data_scientist&positions%5B%5D=algorithm_engineer&positions%5B%5D=devops_engineer&positions%5B%5D=reliability_engineer&positions%5B%5D=sysops_engineer&positions%5B%5D=qa_engineer&positions%5B%5D=cybersecurity_engineer&positions%5B%5D=cybersecurity_operations&seniorities%5B%5D=junior&countries%5B%5D=Singapore"
     jobs = scrape_jobs(url)
 
     with open("jobs.json", "w") as outfile:
