@@ -1,0 +1,10 @@
+{
+    "Microsoft" : "https://sg.indeed.com/cmp/Microsoft/reviews",
+    "Amazon" : "https://sg.indeed.com/cmp/Amazon.com/reviews",
+    "ByteDance" : "https://sg.indeed.com/cmp/ByteDance/reviews",
+    "Deloitte" : "https://sg.indeed.com/cmp/Deloitte/reviews",
+    "Goldman-Sachs" : "https://sg.indeed.com/cmp/Goldman-sachs/reviews",
+    "Bloomberg" : "https://sg.indeed.com/cmp/Bloomberg/reviews",
+    "IBM" : "https://sg.indeed.com/cmp/IBM/reviews",
+    "Intel" : "https://sg.indeed.com/cmp/Intel-Corporation/reviews"
+}
