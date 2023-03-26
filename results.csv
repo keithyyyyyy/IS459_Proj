@@ -1,0 +1,101 @@
+index,antecedent,consequent,basket_rule,support,confidence,lift
+0,['Figma'],['AWS'],['Figma']->['AWS'],0.05263157894736842,1.0,19.0
+3287,"['HTML', 'Kotlin', 'TDD']","['Android', 'React Native']","['HTML', 'Kotlin', 'TDD']->['Android', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3294,"['Android', 'HTML', 'Kotlin']","['React Native', 'TDD']","['Android', 'HTML', 'Kotlin']->['React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3293,"['Android', 'HTML', 'React Native']","['Kotlin', 'TDD']","['Android', 'HTML', 'React Native']->['Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3292,"['Android', 'HTML', 'TDD']","['Kotlin', 'React Native']","['Android', 'HTML', 'TDD']->['Kotlin', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3291,"['Android', 'Kotlin', 'React Native']","['HTML', 'TDD']","['Android', 'Kotlin', 'React Native']->['HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3290,"['Android', 'Kotlin', 'TDD']","['HTML', 'React Native']","['Android', 'Kotlin', 'TDD']->['HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3289,"['Android', 'React Native', 'TDD']","['HTML', 'Kotlin']","['Android', 'React Native', 'TDD']->['HTML', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+3288,"['HTML', 'Kotlin', 'React Native']","['Android', 'TDD']","['HTML', 'Kotlin', 'React Native']->['Android', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3286,"['HTML', 'React Native', 'TDD']","['Android', 'Kotlin']","['HTML', 'React Native', 'TDD']->['Android', 'Kotlin']",0.15789473684210525,1.0,4.749999999999999
+3231,"['Android', 'JavaScript', 'Kotlin']","['HTML', 'TDD']","['Android', 'JavaScript', 'Kotlin']->['HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3285,"['Kotlin', 'React Native', 'TDD']","['Android', 'HTML']","['Kotlin', 'React Native', 'TDD']->['Android', 'HTML']",0.15789473684210525,1.0,6.333333333333333
+3284,"['Android', 'HTML', 'Kotlin', 'React Native']",['TDD'],"['Android', 'HTML', 'Kotlin', 'React Native']->['TDD']",0.15789473684210525,1.0,4.749999999999999
+3283,"['Android', 'HTML', 'Kotlin', 'TDD']",['React Native'],"['Android', 'HTML', 'Kotlin', 'TDD']->['React Native']",0.15789473684210525,1.0,6.333333333333333
+3282,"['Android', 'HTML', 'React Native', 'TDD']",['Kotlin'],"['Android', 'HTML', 'React Native', 'TDD']->['Kotlin']",0.15789473684210525,1.0,4.749999999999999
+3281,"['Android', 'Kotlin', 'React Native', 'TDD']",['HTML'],"['Android', 'Kotlin', 'React Native', 'TDD']->['HTML']",0.15789473684210525,1.0,4.749999999999999
+3280,"['HTML', 'Kotlin', 'React Native', 'TDD']",['Android'],"['HTML', 'Kotlin', 'React Native', 'TDD']->['Android']",0.15789473684210525,1.0,3.8
+3277,['JavaScript'],"['Android', 'HTML', 'React Native', 'TDD']","['JavaScript']->['Android', 'HTML', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3295,"['React Native', 'TDD']","['Android', 'HTML', 'Kotlin']","['React Native', 'TDD']->['Android', 'HTML', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+3296,"['Kotlin', 'TDD']","['Android', 'HTML', 'React Native']","['Kotlin', 'TDD']->['Android', 'HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3297,"['Kotlin', 'React Native']","['Android', 'HTML', 'TDD']","['Kotlin', 'React Native']->['Android', 'HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3298,"['HTML', 'TDD']","['Android', 'Kotlin', 'React Native']","['HTML', 'TDD']->['Android', 'Kotlin', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3318,"['JavaScript', 'Kotlin', 'React Native']","['Android', 'TDD']","['JavaScript', 'Kotlin', 'React Native']->['Android', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3317,"['JavaScript', 'Kotlin', 'TDD']","['Android', 'React Native']","['JavaScript', 'Kotlin', 'TDD']->['Android', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3316,"['JavaScript', 'React Native', 'TDD']","['Android', 'Kotlin']","['JavaScript', 'React Native', 'TDD']->['Android', 'Kotlin']",0.15789473684210525,1.0,4.749999999999999
+3315,"['Kotlin', 'React Native', 'TDD']","['Android', 'JavaScript']","['Kotlin', 'React Native', 'TDD']->['Android', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+3314,"['Android', 'JavaScript', 'Kotlin', 'React Native']",['TDD'],"['Android', 'JavaScript', 'Kotlin', 'React Native']->['TDD']",0.15789473684210525,1.0,4.749999999999999
+3313,"['Android', 'JavaScript', 'Kotlin', 'TDD']",['React Native'],"['Android', 'JavaScript', 'Kotlin', 'TDD']->['React Native']",0.15789473684210525,1.0,6.333333333333333
+3312,"['Android', 'JavaScript', 'React Native', 'TDD']",['Kotlin'],"['Android', 'JavaScript', 'React Native', 'TDD']->['Kotlin']",0.15789473684210525,1.0,4.749999999999999
+3311,"['Android', 'Kotlin', 'React Native', 'TDD']",['JavaScript'],"['Android', 'Kotlin', 'React Native', 'TDD']->['JavaScript']",0.15789473684210525,1.0,6.333333333333333
+3310,"['JavaScript', 'Kotlin', 'React Native', 'TDD']",['Android'],"['JavaScript', 'Kotlin', 'React Native', 'TDD']->['Android']",0.15789473684210525,1.0,3.8
+3306,['React Native'],"['Android', 'HTML', 'Kotlin', 'TDD']","['React Native']->['Android', 'HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3304,"['Android', 'HTML']","['Kotlin', 'React Native', 'TDD']","['Android', 'HTML']->['Kotlin', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3302,"['Android', 'React Native']","['HTML', 'Kotlin', 'TDD']","['Android', 'React Native']->['HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3301,"['Android', 'TDD']","['HTML', 'Kotlin', 'React Native']","['Android', 'TDD']->['HTML', 'Kotlin', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3300,"['HTML', 'Kotlin']","['Android', 'React Native', 'TDD']","['HTML', 'Kotlin']->['Android', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3299,"['HTML', 'React Native']","['Android', 'Kotlin', 'TDD']","['HTML', 'React Native']->['Android', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3276,['React Native'],"['Android', 'HTML', 'JavaScript', 'TDD']","['React Native']->['Android', 'HTML', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3274,"['Android', 'HTML']","['JavaScript', 'React Native', 'TDD']","['Android', 'HTML']->['JavaScript', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3273,"['Android', 'JavaScript']","['HTML', 'React Native', 'TDD']","['Android', 'JavaScript']->['HTML', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3254,"['Android', 'HTML', 'JavaScript', 'React Native']",['TDD'],"['Android', 'HTML', 'JavaScript', 'React Native']->['TDD']",0.15789473684210525,1.0,4.749999999999999
+3252,"['Android', 'HTML', 'React Native', 'TDD']",['JavaScript'],"['Android', 'HTML', 'React Native', 'TDD']->['JavaScript']",0.15789473684210525,1.0,6.333333333333333
+3251,"['Android', 'JavaScript', 'React Native', 'TDD']",['HTML'],"['Android', 'JavaScript', 'React Native', 'TDD']->['HTML']",0.15789473684210525,1.0,4.749999999999999
+3250,"['HTML', 'JavaScript', 'React Native', 'TDD']",['Android'],"['HTML', 'JavaScript', 'React Native', 'TDD']->['Android']",0.15789473684210525,1.0,3.8
+3247,['JavaScript'],"['Android', 'HTML', 'Kotlin', 'TDD']","['JavaScript']->['Android', 'HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3244,"['Android', 'HTML']","['JavaScript', 'Kotlin', 'TDD']","['Android', 'HTML']->['JavaScript', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3243,"['Android', 'JavaScript']","['HTML', 'Kotlin', 'TDD']","['Android', 'JavaScript']->['HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3241,"['Android', 'TDD']","['HTML', 'JavaScript', 'Kotlin']","['Android', 'TDD']->['HTML', 'JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+3240,"['HTML', 'JavaScript']","['Android', 'Kotlin', 'TDD']","['HTML', 'JavaScript']->['Android', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3239,"['HTML', 'Kotlin']","['Android', 'JavaScript', 'TDD']","['HTML', 'Kotlin']->['Android', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3238,"['HTML', 'TDD']","['Android', 'JavaScript', 'Kotlin']","['HTML', 'TDD']->['Android', 'JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+3237,"['JavaScript', 'Kotlin']","['Android', 'HTML', 'TDD']","['JavaScript', 'Kotlin']->['Android', 'HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3236,"['JavaScript', 'TDD']","['Android', 'HTML', 'Kotlin']","['JavaScript', 'TDD']->['Android', 'HTML', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+3235,"['Kotlin', 'TDD']","['Android', 'HTML', 'JavaScript']","['Kotlin', 'TDD']->['Android', 'HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+3234,"['Android', 'HTML', 'JavaScript']","['Kotlin', 'TDD']","['Android', 'HTML', 'JavaScript']->['Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3233,"['Android', 'HTML', 'Kotlin']","['JavaScript', 'TDD']","['Android', 'HTML', 'Kotlin']->['JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3253,"['Android', 'HTML', 'JavaScript', 'TDD']",['React Native'],"['Android', 'HTML', 'JavaScript', 'TDD']->['React Native']",0.15789473684210525,1.0,6.333333333333333
+3255,"['JavaScript', 'React Native', 'TDD']","['Android', 'HTML']","['JavaScript', 'React Native', 'TDD']->['Android', 'HTML']",0.15789473684210525,1.0,6.333333333333333
+3272,"['Android', 'React Native']","['HTML', 'JavaScript', 'TDD']","['Android', 'React Native']->['HTML', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3256,"['HTML', 'React Native', 'TDD']","['Android', 'JavaScript']","['HTML', 'React Native', 'TDD']->['Android', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+3271,"['Android', 'TDD']","['HTML', 'JavaScript', 'React Native']","['Android', 'TDD']->['HTML', 'JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3270,"['HTML', 'JavaScript']","['Android', 'React Native', 'TDD']","['HTML', 'JavaScript']->['Android', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3269,"['HTML', 'React Native']","['Android', 'JavaScript', 'TDD']","['HTML', 'React Native']->['Android', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3268,"['HTML', 'TDD']","['Android', 'JavaScript', 'React Native']","['HTML', 'TDD']->['Android', 'JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3267,"['JavaScript', 'React Native']","['Android', 'HTML', 'TDD']","['JavaScript', 'React Native']->['Android', 'HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3266,"['JavaScript', 'TDD']","['Android', 'HTML', 'React Native']","['JavaScript', 'TDD']->['Android', 'HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3265,"['React Native', 'TDD']","['Android', 'HTML', 'JavaScript']","['React Native', 'TDD']->['Android', 'HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+3264,"['Android', 'HTML', 'JavaScript']","['React Native', 'TDD']","['Android', 'HTML', 'JavaScript']->['React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3263,"['Android', 'HTML', 'React Native']","['JavaScript', 'TDD']","['Android', 'HTML', 'React Native']->['JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3262,"['Android', 'HTML', 'TDD']","['JavaScript', 'React Native']","['Android', 'HTML', 'TDD']->['JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3261,"['Android', 'JavaScript', 'React Native']","['HTML', 'TDD']","['Android', 'JavaScript', 'React Native']->['HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3260,"['Android', 'JavaScript', 'TDD']","['HTML', 'React Native']","['Android', 'JavaScript', 'TDD']->['HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3259,"['Android', 'React Native', 'TDD']","['HTML', 'JavaScript']","['Android', 'React Native', 'TDD']->['HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+3258,"['HTML', 'JavaScript', 'React Native']","['Android', 'TDD']","['HTML', 'JavaScript', 'React Native']->['Android', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3257,"['HTML', 'JavaScript', 'TDD']","['Android', 'React Native']","['HTML', 'JavaScript', 'TDD']->['Android', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3319,"['Android', 'React Native', 'TDD']","['JavaScript', 'Kotlin']","['Android', 'React Native', 'TDD']->['JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+3320,"['Android', 'Kotlin', 'TDD']","['JavaScript', 'React Native']","['Android', 'Kotlin', 'TDD']->['JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+3321,"['Android', 'Kotlin', 'React Native']","['JavaScript', 'TDD']","['Android', 'Kotlin', 'React Native']->['JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+3382,"['EXPRESS', 'JAVA']","['C', 'C++', 'PYTHON']","['EXPRESS', 'JAVA']->['C', 'C++', 'PYTHON']",0.05263157894736842,1.0,9.5
+3380,"['JAVA', 'PYTHON']","['C', 'C++', 'EXPRESS']","['JAVA', 'PYTHON']->['C', 'C++', 'EXPRESS']",0.05263157894736842,1.0,19.0
+3379,"['C', 'C++', 'EXPRESS']","['JAVA', 'PYTHON']","['C', 'C++', 'EXPRESS']->['JAVA', 'PYTHON']",0.05263157894736842,1.0,19.0
+3378,"['C', 'C++', 'JAVA']","['EXPRESS', 'PYTHON']","['C', 'C++', 'JAVA']->['EXPRESS', 'PYTHON']",0.05263157894736842,1.0,19.0
+3376,"['C', 'EXPRESS', 'JAVA']","['C++', 'PYTHON']","['C', 'EXPRESS', 'JAVA']->['C++', 'PYTHON']",0.05263157894736842,1.0,9.5
+3375,"['C', 'EXPRESS', 'PYTHON']","['C++', 'JAVA']","['C', 'EXPRESS', 'PYTHON']->['C++', 'JAVA']",0.05263157894736842,1.0,19.0
+3374,"['C', 'JAVA', 'PYTHON']","['C++', 'EXPRESS']","['C', 'JAVA', 'PYTHON']->['C++', 'EXPRESS']",0.05263157894736842,1.0,19.0
+3373,"['C++', 'EXPRESS', 'JAVA']","['C', 'PYTHON']","['C++', 'EXPRESS', 'JAVA']->['C', 'PYTHON']",0.05263157894736842,1.0,9.5
+3372,"['C++', 'EXPRESS', 'PYTHON']","['C', 'JAVA']","['C++', 'EXPRESS', 'PYTHON']->['C', 'JAVA']",0.05263157894736842,1.0,4.75
+3371,"['C++', 'JAVA', 'PYTHON']","['C', 'EXPRESS']","['C++', 'JAVA', 'PYTHON']->['C', 'EXPRESS']",0.05263157894736842,1.0,19.0
+3370,"['EXPRESS', 'JAVA', 'PYTHON']","['C', 'C++']","['EXPRESS', 'JAVA', 'PYTHON']->['C', 'C++']",0.05263157894736842,1.0,6.333333333333333
+3369,"['C', 'C++', 'EXPRESS', 'JAVA']",['PYTHON'],"['C', 'C++', 'EXPRESS', 'JAVA']->['PYTHON']",0.05263157894736842,1.0,9.5
+3368,"['C', 'C++', 'EXPRESS', 'PYTHON']",['JAVA'],"['C', 'C++', 'EXPRESS', 'PYTHON']->['JAVA']",0.05263157894736842,1.0,4.75
+3367,"['C', 'C++', 'JAVA', 'PYTHON']",['EXPRESS'],"['C', 'C++', 'JAVA', 'PYTHON']->['EXPRESS']",0.05263157894736842,1.0,19.0
+3366,"['C', 'EXPRESS', 'JAVA', 'PYTHON']",['C++'],"['C', 'EXPRESS', 'JAVA', 'PYTHON']->['C++']",0.05263157894736842,1.0,3.8
+3365,"['C++', 'EXPRESS', 'JAVA', 'PYTHON']",['C'],"['C++', 'EXPRESS', 'JAVA', 'PYTHON']->['C']",0.05263157894736842,1.0,2.375
+3381,"['EXPRESS', 'PYTHON']","['C', 'C++', 'JAVA']","['EXPRESS', 'PYTHON']->['C', 'C++', 'JAVA']",0.05263157894736842,1.0,19.0
+3384,"['C++', 'JAVA']","['C', 'EXPRESS', 'PYTHON']","['C++', 'JAVA']->['C', 'EXPRESS', 'PYTHON']",0.05263157894736842,1.0,19.0
+3363,['NEXT'],"['C', 'C++', 'EXPRESS', 'JAVA']","['NEXT']->['C', 'C++', 'EXPRESS', 'JAVA']",0.05263157894736842,1.0,19.0
+3385,"['C++', 'EXPRESS']","['C', 'JAVA', 'PYTHON']","['C++', 'EXPRESS']->['C', 'JAVA', 'PYTHON']",0.05263157894736842,1.0,19.0
+3403,"['C', 'C++', 'NEXT']","['EXPRESS', 'PYTHON']","['C', 'C++', 'NEXT']->['EXPRESS', 'PYTHON']",0.05263157894736842,1.0,19.0
+3401,"['C', 'EXPRESS', 'NEXT']","['C++', 'PYTHON']","['C', 'EXPRESS', 'NEXT']->['C++', 'PYTHON']",0.05263157894736842,1.0,9.5
