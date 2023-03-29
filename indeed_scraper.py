@@ -66,19 +66,19 @@ def fullReview(company):
     # wait for initialize, in seconds
     wait = WebDriverWait(driver, 10)
 
-    # get total review count once
-    if count == 0:
-        try:
-            # get review count
-            reviewCountTag = wait.until(EC.visibility_of_element_located((By.XPATH,"//div[@class='css-r5p2ca eu4oa1w0']/span")))
-            reviewCountDesc = reviewCountTag.text
-            reviewCountText = reviewCountDesc.split(" ")[2]
+    # # get total review count once
+    # if count == 0:
+    #     try:
+    #         # get review count
+    #         reviewCountTag = wait.until(EC.visibility_of_element_located((By.XPATH,"//div[@class='css-r5p2ca eu4oa1w0']/span")))
+    #         reviewCountDesc = reviewCountTag.text
+    #         reviewCountText = reviewCountDesc.split(" ")[2]
         
-            reviewCountTextSplit = reviewCountText.split(",")
-            for i in reviewCountTextSplit:
-                reviewCount += int(i)
-        except:
-            print("Error getting review count.")
+    #         reviewCountTextSplit = reviewCountText.split(",")
+    #         for i in reviewCountTextSplit:
+    #             reviewCount += int(i)
+    #     except:
+    #         print("Error getting review count.")
 
     reviewsContainer = wait.until(EC.visibility_of_element_located((By.XPATH,"//div[@class='cmp-ReviewsList']")))
     wait.until(EC.presence_of_all_elements_located((By.XPATH,"//div[@class='cmp-ReviewsList']")))
@@ -134,7 +134,7 @@ for c in companies:
     companyName = c
     companyURL = companies[c] + "?fcountry=ALL"
 
-    reviewCount = 0
+    reviewCount = 400
     count = 0
     print(f"Beginning scraping of {companyName}...")
     fullReview(companyURL)
