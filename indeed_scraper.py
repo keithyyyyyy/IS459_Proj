@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+import os
+
 import time
 from datetime import datetime, timedelta
 import boto3
@@ -10,6 +13,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
+
+load_dotenv()
+access_key_id = os.getenv("ACCESS_KEY_ID")
+secret_access_key = os.getenv("SECRET_ACCESS_KEY")
 
 # read json file for companies to scrape
 f = open('indeed_companies.json')
@@ -151,12 +158,12 @@ for c in companies:
 
 s3 = boto3.client('s3', aws_access_key_id=access_key_id, aws_secret_access_key=secret_access_key)
 bucket_name = 'is459-t3-job-raw-data'
-file_name = 'jobs.json'
+file_name = 'indeed_reviews.json'
 json_string = json.dumps(cdict)
 
 s3.put_object(
     Bucket=bucket_name,
-    Key='nodeflair_raw/' + file_name,
+    Key='indeed_raw/' + file_name,
     Body=json_string.encode('utf-8')
 )
 
