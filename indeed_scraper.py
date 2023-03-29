@@ -134,7 +134,7 @@ for c in companies:
     companyName = c
     companyURL = companies[c] + "?fcountry=ALL"
 
-    reviewCount = 400
+    reviewCount = 100
     count = 0
     print(f"Beginning scraping of {companyName}...")
     fullReview(companyURL)
