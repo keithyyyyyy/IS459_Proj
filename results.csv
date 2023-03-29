@@ -1,101 +1,101 @@
 index,antecedent,consequent,basket_rule,support,confidence,lift
-0,['Figma'],['AWS'],['Figma']->['AWS'],0.05263157894736842,1.0,19.0
-3287,"['HTML', 'Kotlin', 'TDD']","['Android', 'React Native']","['HTML', 'Kotlin', 'TDD']->['Android', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3294,"['Android', 'HTML', 'Kotlin']","['React Native', 'TDD']","['Android', 'HTML', 'Kotlin']->['React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3293,"['Android', 'HTML', 'React Native']","['Kotlin', 'TDD']","['Android', 'HTML', 'React Native']->['Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3292,"['Android', 'HTML', 'TDD']","['Kotlin', 'React Native']","['Android', 'HTML', 'TDD']->['Kotlin', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3291,"['Android', 'Kotlin', 'React Native']","['HTML', 'TDD']","['Android', 'Kotlin', 'React Native']->['HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3290,"['Android', 'Kotlin', 'TDD']","['HTML', 'React Native']","['Android', 'Kotlin', 'TDD']->['HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3289,"['Android', 'React Native', 'TDD']","['HTML', 'Kotlin']","['Android', 'React Native', 'TDD']->['HTML', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
-3288,"['HTML', 'Kotlin', 'React Native']","['Android', 'TDD']","['HTML', 'Kotlin', 'React Native']->['Android', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3286,"['HTML', 'React Native', 'TDD']","['Android', 'Kotlin']","['HTML', 'React Native', 'TDD']->['Android', 'Kotlin']",0.15789473684210525,1.0,4.749999999999999
-3231,"['Android', 'JavaScript', 'Kotlin']","['HTML', 'TDD']","['Android', 'JavaScript', 'Kotlin']->['HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3285,"['Kotlin', 'React Native', 'TDD']","['Android', 'HTML']","['Kotlin', 'React Native', 'TDD']->['Android', 'HTML']",0.15789473684210525,1.0,6.333333333333333
-3284,"['Android', 'HTML', 'Kotlin', 'React Native']",['TDD'],"['Android', 'HTML', 'Kotlin', 'React Native']->['TDD']",0.15789473684210525,1.0,4.749999999999999
-3283,"['Android', 'HTML', 'Kotlin', 'TDD']",['React Native'],"['Android', 'HTML', 'Kotlin', 'TDD']->['React Native']",0.15789473684210525,1.0,6.333333333333333
-3282,"['Android', 'HTML', 'React Native', 'TDD']",['Kotlin'],"['Android', 'HTML', 'React Native', 'TDD']->['Kotlin']",0.15789473684210525,1.0,4.749999999999999
-3281,"['Android', 'Kotlin', 'React Native', 'TDD']",['HTML'],"['Android', 'Kotlin', 'React Native', 'TDD']->['HTML']",0.15789473684210525,1.0,4.749999999999999
-3280,"['HTML', 'Kotlin', 'React Native', 'TDD']",['Android'],"['HTML', 'Kotlin', 'React Native', 'TDD']->['Android']",0.15789473684210525,1.0,3.8
-3277,['JavaScript'],"['Android', 'HTML', 'React Native', 'TDD']","['JavaScript']->['Android', 'HTML', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3295,"['React Native', 'TDD']","['Android', 'HTML', 'Kotlin']","['React Native', 'TDD']->['Android', 'HTML', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
-3296,"['Kotlin', 'TDD']","['Android', 'HTML', 'React Native']","['Kotlin', 'TDD']->['Android', 'HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3297,"['Kotlin', 'React Native']","['Android', 'HTML', 'TDD']","['Kotlin', 'React Native']->['Android', 'HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3298,"['HTML', 'TDD']","['Android', 'Kotlin', 'React Native']","['HTML', 'TDD']->['Android', 'Kotlin', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3318,"['JavaScript', 'Kotlin', 'React Native']","['Android', 'TDD']","['JavaScript', 'Kotlin', 'React Native']->['Android', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3317,"['JavaScript', 'Kotlin', 'TDD']","['Android', 'React Native']","['JavaScript', 'Kotlin', 'TDD']->['Android', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3316,"['JavaScript', 'React Native', 'TDD']","['Android', 'Kotlin']","['JavaScript', 'React Native', 'TDD']->['Android', 'Kotlin']",0.15789473684210525,1.0,4.749999999999999
-3315,"['Kotlin', 'React Native', 'TDD']","['Android', 'JavaScript']","['Kotlin', 'React Native', 'TDD']->['Android', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
-3314,"['Android', 'JavaScript', 'Kotlin', 'React Native']",['TDD'],"['Android', 'JavaScript', 'Kotlin', 'React Native']->['TDD']",0.15789473684210525,1.0,4.749999999999999
-3313,"['Android', 'JavaScript', 'Kotlin', 'TDD']",['React Native'],"['Android', 'JavaScript', 'Kotlin', 'TDD']->['React Native']",0.15789473684210525,1.0,6.333333333333333
-3312,"['Android', 'JavaScript', 'React Native', 'TDD']",['Kotlin'],"['Android', 'JavaScript', 'React Native', 'TDD']->['Kotlin']",0.15789473684210525,1.0,4.749999999999999
-3311,"['Android', 'Kotlin', 'React Native', 'TDD']",['JavaScript'],"['Android', 'Kotlin', 'React Native', 'TDD']->['JavaScript']",0.15789473684210525,1.0,6.333333333333333
-3310,"['JavaScript', 'Kotlin', 'React Native', 'TDD']",['Android'],"['JavaScript', 'Kotlin', 'React Native', 'TDD']->['Android']",0.15789473684210525,1.0,3.8
-3306,['React Native'],"['Android', 'HTML', 'Kotlin', 'TDD']","['React Native']->['Android', 'HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3304,"['Android', 'HTML']","['Kotlin', 'React Native', 'TDD']","['Android', 'HTML']->['Kotlin', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3302,"['Android', 'React Native']","['HTML', 'Kotlin', 'TDD']","['Android', 'React Native']->['HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3301,"['Android', 'TDD']","['HTML', 'Kotlin', 'React Native']","['Android', 'TDD']->['HTML', 'Kotlin', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3300,"['HTML', 'Kotlin']","['Android', 'React Native', 'TDD']","['HTML', 'Kotlin']->['Android', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3299,"['HTML', 'React Native']","['Android', 'Kotlin', 'TDD']","['HTML', 'React Native']->['Android', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3276,['React Native'],"['Android', 'HTML', 'JavaScript', 'TDD']","['React Native']->['Android', 'HTML', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3274,"['Android', 'HTML']","['JavaScript', 'React Native', 'TDD']","['Android', 'HTML']->['JavaScript', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3273,"['Android', 'JavaScript']","['HTML', 'React Native', 'TDD']","['Android', 'JavaScript']->['HTML', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3254,"['Android', 'HTML', 'JavaScript', 'React Native']",['TDD'],"['Android', 'HTML', 'JavaScript', 'React Native']->['TDD']",0.15789473684210525,1.0,4.749999999999999
-3252,"['Android', 'HTML', 'React Native', 'TDD']",['JavaScript'],"['Android', 'HTML', 'React Native', 'TDD']->['JavaScript']",0.15789473684210525,1.0,6.333333333333333
-3251,"['Android', 'JavaScript', 'React Native', 'TDD']",['HTML'],"['Android', 'JavaScript', 'React Native', 'TDD']->['HTML']",0.15789473684210525,1.0,4.749999999999999
-3250,"['HTML', 'JavaScript', 'React Native', 'TDD']",['Android'],"['HTML', 'JavaScript', 'React Native', 'TDD']->['Android']",0.15789473684210525,1.0,3.8
-3247,['JavaScript'],"['Android', 'HTML', 'Kotlin', 'TDD']","['JavaScript']->['Android', 'HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3244,"['Android', 'HTML']","['JavaScript', 'Kotlin', 'TDD']","['Android', 'HTML']->['JavaScript', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3243,"['Android', 'JavaScript']","['HTML', 'Kotlin', 'TDD']","['Android', 'JavaScript']->['HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3241,"['Android', 'TDD']","['HTML', 'JavaScript', 'Kotlin']","['Android', 'TDD']->['HTML', 'JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
-3240,"['HTML', 'JavaScript']","['Android', 'Kotlin', 'TDD']","['HTML', 'JavaScript']->['Android', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3239,"['HTML', 'Kotlin']","['Android', 'JavaScript', 'TDD']","['HTML', 'Kotlin']->['Android', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3238,"['HTML', 'TDD']","['Android', 'JavaScript', 'Kotlin']","['HTML', 'TDD']->['Android', 'JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
-3237,"['JavaScript', 'Kotlin']","['Android', 'HTML', 'TDD']","['JavaScript', 'Kotlin']->['Android', 'HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3236,"['JavaScript', 'TDD']","['Android', 'HTML', 'Kotlin']","['JavaScript', 'TDD']->['Android', 'HTML', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
-3235,"['Kotlin', 'TDD']","['Android', 'HTML', 'JavaScript']","['Kotlin', 'TDD']->['Android', 'HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
-3234,"['Android', 'HTML', 'JavaScript']","['Kotlin', 'TDD']","['Android', 'HTML', 'JavaScript']->['Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3233,"['Android', 'HTML', 'Kotlin']","['JavaScript', 'TDD']","['Android', 'HTML', 'Kotlin']->['JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3253,"['Android', 'HTML', 'JavaScript', 'TDD']",['React Native'],"['Android', 'HTML', 'JavaScript', 'TDD']->['React Native']",0.15789473684210525,1.0,6.333333333333333
-3255,"['JavaScript', 'React Native', 'TDD']","['Android', 'HTML']","['JavaScript', 'React Native', 'TDD']->['Android', 'HTML']",0.15789473684210525,1.0,6.333333333333333
-3272,"['Android', 'React Native']","['HTML', 'JavaScript', 'TDD']","['Android', 'React Native']->['HTML', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3256,"['HTML', 'React Native', 'TDD']","['Android', 'JavaScript']","['HTML', 'React Native', 'TDD']->['Android', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
-3271,"['Android', 'TDD']","['HTML', 'JavaScript', 'React Native']","['Android', 'TDD']->['HTML', 'JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3270,"['HTML', 'JavaScript']","['Android', 'React Native', 'TDD']","['HTML', 'JavaScript']->['Android', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3269,"['HTML', 'React Native']","['Android', 'JavaScript', 'TDD']","['HTML', 'React Native']->['Android', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3268,"['HTML', 'TDD']","['Android', 'JavaScript', 'React Native']","['HTML', 'TDD']->['Android', 'JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3267,"['JavaScript', 'React Native']","['Android', 'HTML', 'TDD']","['JavaScript', 'React Native']->['Android', 'HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3266,"['JavaScript', 'TDD']","['Android', 'HTML', 'React Native']","['JavaScript', 'TDD']->['Android', 'HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3265,"['React Native', 'TDD']","['Android', 'HTML', 'JavaScript']","['React Native', 'TDD']->['Android', 'HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
-3264,"['Android', 'HTML', 'JavaScript']","['React Native', 'TDD']","['Android', 'HTML', 'JavaScript']->['React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3263,"['Android', 'HTML', 'React Native']","['JavaScript', 'TDD']","['Android', 'HTML', 'React Native']->['JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3262,"['Android', 'HTML', 'TDD']","['JavaScript', 'React Native']","['Android', 'HTML', 'TDD']->['JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3261,"['Android', 'JavaScript', 'React Native']","['HTML', 'TDD']","['Android', 'JavaScript', 'React Native']->['HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3260,"['Android', 'JavaScript', 'TDD']","['HTML', 'React Native']","['Android', 'JavaScript', 'TDD']->['HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3259,"['Android', 'React Native', 'TDD']","['HTML', 'JavaScript']","['Android', 'React Native', 'TDD']->['HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
-3258,"['HTML', 'JavaScript', 'React Native']","['Android', 'TDD']","['HTML', 'JavaScript', 'React Native']->['Android', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3257,"['HTML', 'JavaScript', 'TDD']","['Android', 'React Native']","['HTML', 'JavaScript', 'TDD']->['Android', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3319,"['Android', 'React Native', 'TDD']","['JavaScript', 'Kotlin']","['Android', 'React Native', 'TDD']->['JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
-3320,"['Android', 'Kotlin', 'TDD']","['JavaScript', 'React Native']","['Android', 'Kotlin', 'TDD']->['JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
-3321,"['Android', 'Kotlin', 'React Native']","['JavaScript', 'TDD']","['Android', 'Kotlin', 'React Native']->['JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
-3382,"['EXPRESS', 'JAVA']","['C', 'C++', 'PYTHON']","['EXPRESS', 'JAVA']->['C', 'C++', 'PYTHON']",0.05263157894736842,1.0,9.5
-3380,"['JAVA', 'PYTHON']","['C', 'C++', 'EXPRESS']","['JAVA', 'PYTHON']->['C', 'C++', 'EXPRESS']",0.05263157894736842,1.0,19.0
-3379,"['C', 'C++', 'EXPRESS']","['JAVA', 'PYTHON']","['C', 'C++', 'EXPRESS']->['JAVA', 'PYTHON']",0.05263157894736842,1.0,19.0
-3378,"['C', 'C++', 'JAVA']","['EXPRESS', 'PYTHON']","['C', 'C++', 'JAVA']->['EXPRESS', 'PYTHON']",0.05263157894736842,1.0,19.0
-3376,"['C', 'EXPRESS', 'JAVA']","['C++', 'PYTHON']","['C', 'EXPRESS', 'JAVA']->['C++', 'PYTHON']",0.05263157894736842,1.0,9.5
-3375,"['C', 'EXPRESS', 'PYTHON']","['C++', 'JAVA']","['C', 'EXPRESS', 'PYTHON']->['C++', 'JAVA']",0.05263157894736842,1.0,19.0
-3374,"['C', 'JAVA', 'PYTHON']","['C++', 'EXPRESS']","['C', 'JAVA', 'PYTHON']->['C++', 'EXPRESS']",0.05263157894736842,1.0,19.0
-3373,"['C++', 'EXPRESS', 'JAVA']","['C', 'PYTHON']","['C++', 'EXPRESS', 'JAVA']->['C', 'PYTHON']",0.05263157894736842,1.0,9.5
-3372,"['C++', 'EXPRESS', 'PYTHON']","['C', 'JAVA']","['C++', 'EXPRESS', 'PYTHON']->['C', 'JAVA']",0.05263157894736842,1.0,4.75
-3371,"['C++', 'JAVA', 'PYTHON']","['C', 'EXPRESS']","['C++', 'JAVA', 'PYTHON']->['C', 'EXPRESS']",0.05263157894736842,1.0,19.0
-3370,"['EXPRESS', 'JAVA', 'PYTHON']","['C', 'C++']","['EXPRESS', 'JAVA', 'PYTHON']->['C', 'C++']",0.05263157894736842,1.0,6.333333333333333
-3369,"['C', 'C++', 'EXPRESS', 'JAVA']",['PYTHON'],"['C', 'C++', 'EXPRESS', 'JAVA']->['PYTHON']",0.05263157894736842,1.0,9.5
-3368,"['C', 'C++', 'EXPRESS', 'PYTHON']",['JAVA'],"['C', 'C++', 'EXPRESS', 'PYTHON']->['JAVA']",0.05263157894736842,1.0,4.75
-3367,"['C', 'C++', 'JAVA', 'PYTHON']",['EXPRESS'],"['C', 'C++', 'JAVA', 'PYTHON']->['EXPRESS']",0.05263157894736842,1.0,19.0
-3366,"['C', 'EXPRESS', 'JAVA', 'PYTHON']",['C++'],"['C', 'EXPRESS', 'JAVA', 'PYTHON']->['C++']",0.05263157894736842,1.0,3.8
-3365,"['C++', 'EXPRESS', 'JAVA', 'PYTHON']",['C'],"['C++', 'EXPRESS', 'JAVA', 'PYTHON']->['C']",0.05263157894736842,1.0,2.375
-3381,"['EXPRESS', 'PYTHON']","['C', 'C++', 'JAVA']","['EXPRESS', 'PYTHON']->['C', 'C++', 'JAVA']",0.05263157894736842,1.0,19.0
-3384,"['C++', 'JAVA']","['C', 'EXPRESS', 'PYTHON']","['C++', 'JAVA']->['C', 'EXPRESS', 'PYTHON']",0.05263157894736842,1.0,19.0
-3363,['NEXT'],"['C', 'C++', 'EXPRESS', 'JAVA']","['NEXT']->['C', 'C++', 'EXPRESS', 'JAVA']",0.05263157894736842,1.0,19.0
-3385,"['C++', 'EXPRESS']","['C', 'JAVA', 'PYTHON']","['C++', 'EXPRESS']->['C', 'JAVA', 'PYTHON']",0.05263157894736842,1.0,19.0
-3403,"['C', 'C++', 'NEXT']","['EXPRESS', 'PYTHON']","['C', 'C++', 'NEXT']->['EXPRESS', 'PYTHON']",0.05263157894736842,1.0,19.0
-3401,"['C', 'EXPRESS', 'NEXT']","['C++', 'PYTHON']","['C', 'EXPRESS', 'NEXT']->['C++', 'PYTHON']",0.05263157894736842,1.0,9.5
+0,['API Gateway'],['API'],['API Gateway']->['API'],0.05,1.0,20.0
+5197,['NODE'],"['C', 'EXPRESS', 'PYTHON', 'REACT']","['NODE']->['C', 'EXPRESS', 'PYTHON', 'REACT']",0.05,1.0,20.0
+5210,"['C', 'NODE', 'PYTHON']","['EXPRESS', 'SQL']","['C', 'NODE', 'PYTHON']->['EXPRESS', 'SQL']",0.05,1.0,20.0
+5209,"['C', 'NODE', 'SQL']","['EXPRESS', 'PYTHON']","['C', 'NODE', 'SQL']->['EXPRESS', 'PYTHON']",0.05,1.0,20.0
+5208,"['C', 'PYTHON', 'SQL']","['EXPRESS', 'NODE']","['C', 'PYTHON', 'SQL']->['EXPRESS', 'NODE']",0.05,1.0,20.0
+5207,"['EXPRESS', 'NODE', 'PYTHON']","['C', 'SQL']","['EXPRESS', 'NODE', 'PYTHON']->['C', 'SQL']",0.05,1.0,5.0
+5206,"['EXPRESS', 'NODE', 'SQL']","['C', 'PYTHON']","['EXPRESS', 'NODE', 'SQL']->['C', 'PYTHON']",0.05,1.0,10.0
+5205,"['EXPRESS', 'PYTHON', 'SQL']","['C', 'NODE']","['EXPRESS', 'PYTHON', 'SQL']->['C', 'NODE']",0.05,1.0,20.0
+5204,"['NODE', 'PYTHON', 'SQL']","['C', 'EXPRESS']","['NODE', 'PYTHON', 'SQL']->['C', 'EXPRESS']",0.05,1.0,10.0
+5203,"['C', 'EXPRESS', 'NODE', 'PYTHON']",['SQL'],"['C', 'EXPRESS', 'NODE', 'PYTHON']->['SQL']",0.05,1.0,5.0
+5202,"['C', 'EXPRESS', 'NODE', 'SQL']",['PYTHON'],"['C', 'EXPRESS', 'NODE', 'SQL']->['PYTHON']",0.05,1.0,10.0
+5201,"['C', 'EXPRESS', 'PYTHON', 'SQL']",['NODE'],"['C', 'EXPRESS', 'PYTHON', 'SQL']->['NODE']",0.05,1.0,20.0
+5200,"['C', 'NODE', 'PYTHON', 'SQL']",['EXPRESS'],"['C', 'NODE', 'PYTHON', 'SQL']->['EXPRESS']",0.05,1.0,10.0
+5199,"['EXPRESS', 'NODE', 'PYTHON', 'SQL']",['C'],"['EXPRESS', 'NODE', 'PYTHON', 'SQL']->['C']",0.05,1.0,2.2222222222222223
+5194,"['C', 'NODE']","['EXPRESS', 'PYTHON', 'REACT']","['C', 'NODE']->['EXPRESS', 'PYTHON', 'REACT']",0.05,1.0,20.0
+5177,"['NODE', 'PYTHON', 'REACT']","['C', 'EXPRESS']","['NODE', 'PYTHON', 'REACT']->['C', 'EXPRESS']",0.05,1.0,10.0
+5192,"['EXPRESS', 'NODE']","['C', 'PYTHON', 'REACT']","['EXPRESS', 'NODE']->['C', 'PYTHON', 'REACT']",0.05,1.0,10.0
+5191,"['EXPRESS', 'PYTHON']","['C', 'NODE', 'REACT']","['EXPRESS', 'PYTHON']->['C', 'NODE', 'REACT']",0.05,1.0,20.0
+5190,"['EXPRESS', 'REACT']","['C', 'NODE', 'PYTHON']","['EXPRESS', 'REACT']->['C', 'NODE', 'PYTHON']",0.05,1.0,20.0
+5189,"['NODE', 'PYTHON']","['C', 'EXPRESS', 'REACT']","['NODE', 'PYTHON']->['C', 'EXPRESS', 'REACT']",0.05,1.0,20.0
+5188,"['NODE', 'REACT']","['C', 'EXPRESS', 'PYTHON']","['NODE', 'REACT']->['C', 'EXPRESS', 'PYTHON']",0.05,1.0,20.0
+5186,"['C', 'EXPRESS', 'NODE']","['PYTHON', 'REACT']","['C', 'EXPRESS', 'NODE']->['PYTHON', 'REACT']",0.05,1.0,10.0
+5185,"['C', 'EXPRESS', 'PYTHON']","['NODE', 'REACT']","['C', 'EXPRESS', 'PYTHON']->['NODE', 'REACT']",0.05,1.0,20.0
+5184,"['C', 'EXPRESS', 'REACT']","['NODE', 'PYTHON']","['C', 'EXPRESS', 'REACT']->['NODE', 'PYTHON']",0.05,1.0,20.0
+5183,"['C', 'NODE', 'PYTHON']","['EXPRESS', 'REACT']","['C', 'NODE', 'PYTHON']->['EXPRESS', 'REACT']",0.05,1.0,20.0
+5182,"['C', 'NODE', 'REACT']","['EXPRESS', 'PYTHON']","['C', 'NODE', 'REACT']->['EXPRESS', 'PYTHON']",0.05,1.0,20.0
+5180,"['EXPRESS', 'NODE', 'PYTHON']","['C', 'REACT']","['EXPRESS', 'NODE', 'PYTHON']->['C', 'REACT']",0.05,1.0,6.666666666666667
+5179,"['EXPRESS', 'NODE', 'REACT']","['C', 'PYTHON']","['EXPRESS', 'NODE', 'REACT']->['C', 'PYTHON']",0.05,1.0,10.0
+5211,"['C', 'EXPRESS', 'SQL']","['NODE', 'PYTHON']","['C', 'EXPRESS', 'SQL']->['NODE', 'PYTHON']",0.05,1.0,20.0
+5212,"['C', 'EXPRESS', 'PYTHON']","['NODE', 'SQL']","['C', 'EXPRESS', 'PYTHON']->['NODE', 'SQL']",0.05,1.0,20.0
+5213,"['C', 'EXPRESS', 'NODE']","['PYTHON', 'SQL']","['C', 'EXPRESS', 'NODE']->['PYTHON', 'SQL']",0.05,1.0,20.0
+5214,"['PYTHON', 'SQL']","['C', 'EXPRESS', 'NODE']","['PYTHON', 'SQL']->['C', 'EXPRESS', 'NODE']",0.05,1.0,20.0
+5243,"['NODE', 'REACT']","['C', 'EXPRESS', 'SQL']","['NODE', 'REACT']->['C', 'EXPRESS', 'SQL']",0.05,1.0,20.0
+5242,"['NODE', 'SQL']","['C', 'EXPRESS', 'REACT']","['NODE', 'SQL']->['C', 'EXPRESS', 'REACT']",0.05,1.0,20.0
+5241,"['REACT', 'SQL']","['C', 'EXPRESS', 'NODE']","['REACT', 'SQL']->['C', 'EXPRESS', 'NODE']",0.05,1.0,20.0
+5240,"['C', 'EXPRESS', 'NODE']","['REACT', 'SQL']","['C', 'EXPRESS', 'NODE']->['REACT', 'SQL']",0.05,1.0,20.0
+5239,"['C', 'EXPRESS', 'REACT']","['NODE', 'SQL']","['C', 'EXPRESS', 'REACT']->['NODE', 'SQL']",0.05,1.0,20.0
+5238,"['C', 'EXPRESS', 'SQL']","['NODE', 'REACT']","['C', 'EXPRESS', 'SQL']->['NODE', 'REACT']",0.05,1.0,20.0
+5237,"['C', 'NODE', 'REACT']","['EXPRESS', 'SQL']","['C', 'NODE', 'REACT']->['EXPRESS', 'SQL']",0.05,1.0,20.0
+5236,"['C', 'NODE', 'SQL']","['EXPRESS', 'REACT']","['C', 'NODE', 'SQL']->['EXPRESS', 'REACT']",0.05,1.0,20.0
+5235,"['C', 'REACT', 'SQL']","['EXPRESS', 'NODE']","['C', 'REACT', 'SQL']->['EXPRESS', 'NODE']",0.05,1.0,20.0
+5234,"['EXPRESS', 'NODE', 'REACT']","['C', 'SQL']","['EXPRESS', 'NODE', 'REACT']->['C', 'SQL']",0.05,1.0,5.0
+5233,"['EXPRESS', 'NODE', 'SQL']","['C', 'REACT']","['EXPRESS', 'NODE', 'SQL']->['C', 'REACT']",0.05,1.0,6.666666666666667
+5232,"['EXPRESS', 'REACT', 'SQL']","['C', 'NODE']","['EXPRESS', 'REACT', 'SQL']->['C', 'NODE']",0.05,1.0,20.0
+5231,"['NODE', 'REACT', 'SQL']","['C', 'EXPRESS']","['NODE', 'REACT', 'SQL']->['C', 'EXPRESS']",0.05,1.0,10.0
+5230,"['C', 'EXPRESS', 'NODE', 'REACT']",['SQL'],"['C', 'EXPRESS', 'NODE', 'REACT']->['SQL']",0.05,1.0,5.0
+5229,"['C', 'EXPRESS', 'NODE', 'SQL']",['REACT'],"['C', 'EXPRESS', 'NODE', 'SQL']->['REACT']",0.05,1.0,6.666666666666667
+5228,"['C', 'EXPRESS', 'REACT', 'SQL']",['NODE'],"['C', 'EXPRESS', 'REACT', 'SQL']->['NODE']",0.05,1.0,20.0
+5227,"['C', 'NODE', 'REACT', 'SQL']",['EXPRESS'],"['C', 'NODE', 'REACT', 'SQL']->['EXPRESS']",0.05,1.0,10.0
+5226,"['EXPRESS', 'NODE', 'REACT', 'SQL']",['C'],"['EXPRESS', 'NODE', 'REACT', 'SQL']->['C']",0.05,1.0,2.2222222222222223
+5224,['NODE'],"['C', 'EXPRESS', 'PYTHON', 'SQL']","['NODE']->['C', 'EXPRESS', 'PYTHON', 'SQL']",0.05,1.0,20.0
+5221,"['C', 'NODE']","['EXPRESS', 'PYTHON', 'SQL']","['C', 'NODE']->['EXPRESS', 'PYTHON', 'SQL']",0.05,1.0,20.0
+5219,"['EXPRESS', 'NODE']","['C', 'PYTHON', 'SQL']","['EXPRESS', 'NODE']->['C', 'PYTHON', 'SQL']",0.05,1.0,20.0
+5218,"['EXPRESS', 'PYTHON']","['C', 'NODE', 'SQL']","['EXPRESS', 'PYTHON']->['C', 'NODE', 'SQL']",0.05,1.0,20.0
+5217,"['EXPRESS', 'SQL']","['C', 'NODE', 'PYTHON']","['EXPRESS', 'SQL']->['C', 'NODE', 'PYTHON']",0.05,1.0,20.0
+5216,"['NODE', 'PYTHON']","['C', 'EXPRESS', 'SQL']","['NODE', 'PYTHON']->['C', 'EXPRESS', 'SQL']",0.05,1.0,20.0
+5215,"['NODE', 'SQL']","['C', 'EXPRESS', 'PYTHON']","['NODE', 'SQL']->['C', 'EXPRESS', 'PYTHON']",0.05,1.0,20.0
+5178,"['EXPRESS', 'PYTHON', 'REACT']","['C', 'NODE']","['EXPRESS', 'PYTHON', 'REACT']->['C', 'NODE']",0.05,1.0,20.0
+5176,"['C', 'EXPRESS', 'NODE', 'PYTHON']",['REACT'],"['C', 'EXPRESS', 'NODE', 'PYTHON']->['REACT']",0.05,1.0,6.666666666666667
+5245,"['EXPRESS', 'REACT']","['C', 'NODE', 'SQL']","['EXPRESS', 'REACT']->['C', 'NODE', 'SQL']",0.05,1.0,20.0
+5121,"['CSS', 'JAVASCRIPT', 'SQL']","['C', 'HTML']","['CSS', 'JAVASCRIPT', 'SQL']->['C', 'HTML']",0.1,1.0,10.0
+5133,"['CSS', 'SQL']","['C', 'HTML', 'JAVASCRIPT']","['CSS', 'SQL']->['C', 'HTML', 'JAVASCRIPT']",0.1,1.0,10.0
+5132,"['HTML', 'JAVASCRIPT']","['C', 'CSS', 'SQL']","['HTML', 'JAVASCRIPT']->['C', 'CSS', 'SQL']",0.1,1.0,10.0
+5131,"['HTML', 'SQL']","['C', 'CSS', 'JAVASCRIPT']","['HTML', 'SQL']->['C', 'CSS', 'JAVASCRIPT']",0.1,1.0,10.0
+5130,"['JAVASCRIPT', 'SQL']","['C', 'CSS', 'HTML']","['JAVASCRIPT', 'SQL']->['C', 'CSS', 'HTML']",0.1,1.0,10.0
+5129,"['C', 'CSS', 'HTML']","['JAVASCRIPT', 'SQL']","['C', 'CSS', 'HTML']->['JAVASCRIPT', 'SQL']",0.1,1.0,10.0
+5128,"['C', 'CSS', 'JAVASCRIPT']","['HTML', 'SQL']","['C', 'CSS', 'JAVASCRIPT']->['HTML', 'SQL']",0.1,1.0,10.0
+5127,"['C', 'CSS', 'SQL']","['HTML', 'JAVASCRIPT']","['C', 'CSS', 'SQL']->['HTML', 'JAVASCRIPT']",0.1,1.0,10.0
+5126,"['C', 'HTML', 'JAVASCRIPT']","['CSS', 'SQL']","['C', 'HTML', 'JAVASCRIPT']->['CSS', 'SQL']",0.1,1.0,10.0
+5125,"['C', 'HTML', 'SQL']","['CSS', 'JAVASCRIPT']","['C', 'HTML', 'SQL']->['CSS', 'JAVASCRIPT']",0.1,1.0,10.0
+5124,"['C', 'JAVASCRIPT', 'SQL']","['CSS', 'HTML']","['C', 'JAVASCRIPT', 'SQL']->['CSS', 'HTML']",0.1,1.0,10.0
+5123,"['CSS', 'HTML', 'JAVASCRIPT']","['C', 'SQL']","['CSS', 'HTML', 'JAVASCRIPT']->['C', 'SQL']",0.1,1.0,5.0
+5122,"['CSS', 'HTML', 'SQL']","['C', 'JAVASCRIPT']","['CSS', 'HTML', 'SQL']->['C', 'JAVASCRIPT']",0.1,1.0,6.666666666666667
+5120,"['HTML', 'JAVASCRIPT', 'SQL']","['C', 'CSS']","['HTML', 'JAVASCRIPT', 'SQL']->['C', 'CSS']",0.1,1.0,10.0
+5175,"['C', 'EXPRESS', 'NODE', 'REACT']",['PYTHON'],"['C', 'EXPRESS', 'NODE', 'REACT']->['PYTHON']",0.05,1.0,10.0
+5119,"['C', 'CSS', 'HTML', 'JAVASCRIPT']",['SQL'],"['C', 'CSS', 'HTML', 'JAVASCRIPT']->['SQL']",0.1,1.0,5.0
+5118,"['C', 'CSS', 'HTML', 'SQL']",['JAVASCRIPT'],"['C', 'CSS', 'HTML', 'SQL']->['JAVASCRIPT']",0.1,1.0,6.666666666666667
+5117,"['C', 'CSS', 'JAVASCRIPT', 'SQL']",['HTML'],"['C', 'CSS', 'JAVASCRIPT', 'SQL']->['HTML']",0.1,1.0,4.0
+5116,"['C', 'HTML', 'JAVASCRIPT', 'SQL']",['CSS'],"['C', 'HTML', 'JAVASCRIPT', 'SQL']->['CSS']",0.1,1.0,10.0
+5115,"['CSS', 'HTML', 'JAVASCRIPT', 'SQL']",['C'],"['CSS', 'HTML', 'JAVASCRIPT', 'SQL']->['C']",0.1,1.0,2.2222222222222223
+5114,['CSS'],"['C', 'HTML', 'JAVA', 'SQL']","['CSS']->['C', 'HTML', 'JAVA', 'SQL']",0.1,1.0,10.0
+5111,"['C', 'CSS']","['HTML', 'JAVA', 'SQL']","['C', 'CSS']->['HTML', 'JAVA', 'SQL']",0.1,1.0,10.0
+5110,"['C', 'HTML']","['CSS', 'JAVA', 'SQL']","['C', 'HTML']->['CSS', 'JAVA', 'SQL']",0.1,1.0,10.0
+5107,"['CSS', 'HTML']","['C', 'JAVA', 'SQL']","['CSS', 'HTML']->['C', 'JAVA', 'SQL']",0.1,1.0,10.0
+5106,"['CSS', 'JAVA']","['C', 'HTML', 'SQL']","['CSS', 'JAVA']->['C', 'HTML', 'SQL']",0.1,1.0,10.0
+5105,"['CSS', 'SQL']","['C', 'HTML', 'JAVA']","['CSS', 'SQL']->['C', 'HTML', 'JAVA']",0.1,1.0,10.0
+5104,"['HTML', 'JAVA']","['C', 'CSS', 'SQL']","['HTML', 'JAVA']->['C', 'CSS', 'SQL']",0.1,1.0,10.0
+5134,"['CSS', 'JAVASCRIPT']","['C', 'HTML', 'SQL']","['CSS', 'JAVASCRIPT']->['C', 'HTML', 'SQL']",0.1,1.0,10.0
+5135,"['CSS', 'HTML']","['C', 'JAVASCRIPT', 'SQL']","['CSS', 'HTML']->['C', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
+5138,"['C', 'HTML']","['CSS', 'JAVASCRIPT', 'SQL']","['C', 'HTML']->['CSS', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
+5139,"['C', 'CSS']","['HTML', 'JAVASCRIPT', 'SQL']","['C', 'CSS']->['HTML', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
+5174,"['C', 'EXPRESS', 'PYTHON', 'REACT']",['NODE'],"['C', 'EXPRESS', 'PYTHON', 'REACT']->['NODE']",0.05,1.0,20.0
+5173,"['C', 'NODE', 'PYTHON', 'REACT']",['EXPRESS'],"['C', 'NODE', 'PYTHON', 'REACT']->['EXPRESS']",0.05,1.0,10.0
+5172,"['EXPRESS', 'NODE', 'PYTHON', 'REACT']",['C'],"['EXPRESS', 'NODE', 'PYTHON', 'REACT']->['C']",0.05,1.0,2.2222222222222223
+5171,['CSS'],"['C', 'JAVA', 'JAVASCRIPT', 'SQL']","['CSS']->['C', 'JAVA', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
+5167,"['C', 'CSS']","['JAVA', 'JAVASCRIPT', 'SQL']","['C', 'CSS']->['JAVA', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
+5163,"['CSS', 'JAVA']","['C', 'JAVASCRIPT', 'SQL']","['CSS', 'JAVA']->['C', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
+5162,"['CSS', 'JAVASCRIPT']","['C', 'JAVA', 'SQL']","['CSS', 'JAVASCRIPT']->['C', 'JAVA', 'SQL']",0.1,1.0,10.0
+5161,"['CSS', 'SQL']","['C', 'JAVA', 'JAVASCRIPT']","['CSS', 'SQL']->['C', 'JAVA', 'JAVASCRIPT']",0.1,1.0,6.666666666666667
+5159,"['JAVA', 'SQL']","['C', 'CSS', 'JAVASCRIPT']","['JAVA', 'SQL']->['C', 'CSS', 'JAVASCRIPT']",0.1,1.0,10.0
