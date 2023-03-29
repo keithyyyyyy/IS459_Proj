@@ -136,22 +136,32 @@ print("Beginning scraper now...")
 
 cdict = {"test": "test"}
 
-# for c in companies:
-#     reviewDetails = pd.DataFrame(columns=[REVIEWCOLUMNONE, REVIEWCOLUMNTWO, REVIEWCOLUMNTHREE])
+for c in companies:
+    try_count = 1
 
-#     companyName = c
-#     companyURL = companies[c] + "?fcountry=ALL"
+    companyName = c
+    companyURL = companies[c] + "?fcountry=ALL"
+    
+    while try_count < 3:
+        reviewDetails = pd.DataFrame(columns=[REVIEWCOLUMNONE, REVIEWCOLUMNTWO, REVIEWCOLUMNTHREE])
+        
+        try: 
+            reviewCount = 100
+            count = 0
+            print(f"Beginning attempt {try_count} of scraping {companyName} reviews...")
+            fullReview(companyURL)
 
-#     reviewCount = 100
-#     count = 0
-#     print(f"Beginning scraping of {companyName}...")
-#     fullReview(companyURL)
+            try_count += 2
+        
+        except:
+            print(f"Attempt {try_count} of scraping {companyName} failed.")
+            try_count += 1
 
-#     jreviews = reviewDetails.to_json(orient="records")
-#     parsedV = json.loads(jreviews)
-#     cdict[companyName] = parsedV
+    jreviews = reviewDetails.to_json(orient="records")
+    parsedV = json.loads(jreviews)
+    cdict[companyName] = parsedV
 
-#     print(f"{companyName} completed.")
+    print(f"Scraping of {companyName} reviews completed.")
 
 # # export file in json
 # save_json("indeedReviews.json",cdict)
