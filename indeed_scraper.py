@@ -164,7 +164,7 @@ for c in companies:
     print(f"Scraping of {companyName} reviews completed.")
 
 # export file in json
-save_json("indeedReviews.json",cdict)
+# save_json("indeedReviews.json",cdict)
 
 s3 = boto3.client('s3', aws_access_key_id=access_key_id, aws_secret_access_key=secret_access_key)
 bucket_name = 'is459-t3-job-raw-data'
