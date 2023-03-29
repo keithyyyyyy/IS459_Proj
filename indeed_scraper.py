@@ -134,27 +134,27 @@ driver = webdriver.Chrome(options=chrome_options)
 start = time.time()
 print("Beginning scraper now...")
 
-cdict = {"test": "test"}
+cdict = {}
 
-# for c in companies:
-#     reviewDetails = pd.DataFrame(columns=[REVIEWCOLUMNONE, REVIEWCOLUMNTWO, REVIEWCOLUMNTHREE])
+for c in companies:
+    reviewDetails = pd.DataFrame(columns=[REVIEWCOLUMNONE, REVIEWCOLUMNTWO, REVIEWCOLUMNTHREE])
 
-#     companyName = c
-#     companyURL = companies[c] + "?fcountry=ALL"
+    companyName = c
+    companyURL = companies[c] + "?fcountry=ALL"
 
-#     reviewCount = 100
-#     count = 0
-#     print(f"Beginning scraping of {companyName}...")
-#     fullReview(companyURL)
+    reviewCount = 100
+    count = 0
+    print(f"Beginning scraping of {companyName}...")
+    fullReview(companyURL)
 
-#     jreviews = reviewDetails.to_json(orient="records")
-#     parsedV = json.loads(jreviews)
-#     cdict[companyName] = parsedV
+    jreviews = reviewDetails.to_json(orient="records")
+    parsedV = json.loads(jreviews)
+    cdict[companyName] = parsedV
 
-#     print(f"{companyName} completed.")
+    print(f"{companyName} completed.")
 
-# # export file in json
-# save_json("indeedReviews.json",cdict)
+# export file in json
+save_json("indeedReviews.json",cdict)
 
 s3 = boto3.client('s3', aws_access_key_id=access_key_id, aws_secret_access_key=secret_access_key)
 bucket_name = 'is459-t3-job-raw-data'

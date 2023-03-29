@@ -1,101 +1,101 @@
 index,antecedent,consequent,basket_rule,support,confidence,lift
-0,['API Gateway'],['API'],['API Gateway']->['API'],0.05,1.0,20.0
-5197,['NODE'],"['C', 'EXPRESS', 'PYTHON', 'REACT']","['NODE']->['C', 'EXPRESS', 'PYTHON', 'REACT']",0.05,1.0,20.0
-5210,"['C', 'NODE', 'PYTHON']","['EXPRESS', 'SQL']","['C', 'NODE', 'PYTHON']->['EXPRESS', 'SQL']",0.05,1.0,20.0
-5209,"['C', 'NODE', 'SQL']","['EXPRESS', 'PYTHON']","['C', 'NODE', 'SQL']->['EXPRESS', 'PYTHON']",0.05,1.0,20.0
-5208,"['C', 'PYTHON', 'SQL']","['EXPRESS', 'NODE']","['C', 'PYTHON', 'SQL']->['EXPRESS', 'NODE']",0.05,1.0,20.0
-5207,"['EXPRESS', 'NODE', 'PYTHON']","['C', 'SQL']","['EXPRESS', 'NODE', 'PYTHON']->['C', 'SQL']",0.05,1.0,5.0
-5206,"['EXPRESS', 'NODE', 'SQL']","['C', 'PYTHON']","['EXPRESS', 'NODE', 'SQL']->['C', 'PYTHON']",0.05,1.0,10.0
-5205,"['EXPRESS', 'PYTHON', 'SQL']","['C', 'NODE']","['EXPRESS', 'PYTHON', 'SQL']->['C', 'NODE']",0.05,1.0,20.0
-5204,"['NODE', 'PYTHON', 'SQL']","['C', 'EXPRESS']","['NODE', 'PYTHON', 'SQL']->['C', 'EXPRESS']",0.05,1.0,10.0
-5203,"['C', 'EXPRESS', 'NODE', 'PYTHON']",['SQL'],"['C', 'EXPRESS', 'NODE', 'PYTHON']->['SQL']",0.05,1.0,5.0
-5202,"['C', 'EXPRESS', 'NODE', 'SQL']",['PYTHON'],"['C', 'EXPRESS', 'NODE', 'SQL']->['PYTHON']",0.05,1.0,10.0
-5201,"['C', 'EXPRESS', 'PYTHON', 'SQL']",['NODE'],"['C', 'EXPRESS', 'PYTHON', 'SQL']->['NODE']",0.05,1.0,20.0
-5200,"['C', 'NODE', 'PYTHON', 'SQL']",['EXPRESS'],"['C', 'NODE', 'PYTHON', 'SQL']->['EXPRESS']",0.05,1.0,10.0
-5199,"['EXPRESS', 'NODE', 'PYTHON', 'SQL']",['C'],"['EXPRESS', 'NODE', 'PYTHON', 'SQL']->['C']",0.05,1.0,2.2222222222222223
-5194,"['C', 'NODE']","['EXPRESS', 'PYTHON', 'REACT']","['C', 'NODE']->['EXPRESS', 'PYTHON', 'REACT']",0.05,1.0,20.0
-5177,"['NODE', 'PYTHON', 'REACT']","['C', 'EXPRESS']","['NODE', 'PYTHON', 'REACT']->['C', 'EXPRESS']",0.05,1.0,10.0
-5192,"['EXPRESS', 'NODE']","['C', 'PYTHON', 'REACT']","['EXPRESS', 'NODE']->['C', 'PYTHON', 'REACT']",0.05,1.0,10.0
-5191,"['EXPRESS', 'PYTHON']","['C', 'NODE', 'REACT']","['EXPRESS', 'PYTHON']->['C', 'NODE', 'REACT']",0.05,1.0,20.0
-5190,"['EXPRESS', 'REACT']","['C', 'NODE', 'PYTHON']","['EXPRESS', 'REACT']->['C', 'NODE', 'PYTHON']",0.05,1.0,20.0
-5189,"['NODE', 'PYTHON']","['C', 'EXPRESS', 'REACT']","['NODE', 'PYTHON']->['C', 'EXPRESS', 'REACT']",0.05,1.0,20.0
-5188,"['NODE', 'REACT']","['C', 'EXPRESS', 'PYTHON']","['NODE', 'REACT']->['C', 'EXPRESS', 'PYTHON']",0.05,1.0,20.0
-5186,"['C', 'EXPRESS', 'NODE']","['PYTHON', 'REACT']","['C', 'EXPRESS', 'NODE']->['PYTHON', 'REACT']",0.05,1.0,10.0
-5185,"['C', 'EXPRESS', 'PYTHON']","['NODE', 'REACT']","['C', 'EXPRESS', 'PYTHON']->['NODE', 'REACT']",0.05,1.0,20.0
-5184,"['C', 'EXPRESS', 'REACT']","['NODE', 'PYTHON']","['C', 'EXPRESS', 'REACT']->['NODE', 'PYTHON']",0.05,1.0,20.0
-5183,"['C', 'NODE', 'PYTHON']","['EXPRESS', 'REACT']","['C', 'NODE', 'PYTHON']->['EXPRESS', 'REACT']",0.05,1.0,20.0
-5182,"['C', 'NODE', 'REACT']","['EXPRESS', 'PYTHON']","['C', 'NODE', 'REACT']->['EXPRESS', 'PYTHON']",0.05,1.0,20.0
-5180,"['EXPRESS', 'NODE', 'PYTHON']","['C', 'REACT']","['EXPRESS', 'NODE', 'PYTHON']->['C', 'REACT']",0.05,1.0,6.666666666666667
-5179,"['EXPRESS', 'NODE', 'REACT']","['C', 'PYTHON']","['EXPRESS', 'NODE', 'REACT']->['C', 'PYTHON']",0.05,1.0,10.0
-5211,"['C', 'EXPRESS', 'SQL']","['NODE', 'PYTHON']","['C', 'EXPRESS', 'SQL']->['NODE', 'PYTHON']",0.05,1.0,20.0
-5212,"['C', 'EXPRESS', 'PYTHON']","['NODE', 'SQL']","['C', 'EXPRESS', 'PYTHON']->['NODE', 'SQL']",0.05,1.0,20.0
-5213,"['C', 'EXPRESS', 'NODE']","['PYTHON', 'SQL']","['C', 'EXPRESS', 'NODE']->['PYTHON', 'SQL']",0.05,1.0,20.0
-5214,"['PYTHON', 'SQL']","['C', 'EXPRESS', 'NODE']","['PYTHON', 'SQL']->['C', 'EXPRESS', 'NODE']",0.05,1.0,20.0
-5243,"['NODE', 'REACT']","['C', 'EXPRESS', 'SQL']","['NODE', 'REACT']->['C', 'EXPRESS', 'SQL']",0.05,1.0,20.0
-5242,"['NODE', 'SQL']","['C', 'EXPRESS', 'REACT']","['NODE', 'SQL']->['C', 'EXPRESS', 'REACT']",0.05,1.0,20.0
-5241,"['REACT', 'SQL']","['C', 'EXPRESS', 'NODE']","['REACT', 'SQL']->['C', 'EXPRESS', 'NODE']",0.05,1.0,20.0
-5240,"['C', 'EXPRESS', 'NODE']","['REACT', 'SQL']","['C', 'EXPRESS', 'NODE']->['REACT', 'SQL']",0.05,1.0,20.0
-5239,"['C', 'EXPRESS', 'REACT']","['NODE', 'SQL']","['C', 'EXPRESS', 'REACT']->['NODE', 'SQL']",0.05,1.0,20.0
-5238,"['C', 'EXPRESS', 'SQL']","['NODE', 'REACT']","['C', 'EXPRESS', 'SQL']->['NODE', 'REACT']",0.05,1.0,20.0
-5237,"['C', 'NODE', 'REACT']","['EXPRESS', 'SQL']","['C', 'NODE', 'REACT']->['EXPRESS', 'SQL']",0.05,1.0,20.0
-5236,"['C', 'NODE', 'SQL']","['EXPRESS', 'REACT']","['C', 'NODE', 'SQL']->['EXPRESS', 'REACT']",0.05,1.0,20.0
-5235,"['C', 'REACT', 'SQL']","['EXPRESS', 'NODE']","['C', 'REACT', 'SQL']->['EXPRESS', 'NODE']",0.05,1.0,20.0
-5234,"['EXPRESS', 'NODE', 'REACT']","['C', 'SQL']","['EXPRESS', 'NODE', 'REACT']->['C', 'SQL']",0.05,1.0,5.0
-5233,"['EXPRESS', 'NODE', 'SQL']","['C', 'REACT']","['EXPRESS', 'NODE', 'SQL']->['C', 'REACT']",0.05,1.0,6.666666666666667
-5232,"['EXPRESS', 'REACT', 'SQL']","['C', 'NODE']","['EXPRESS', 'REACT', 'SQL']->['C', 'NODE']",0.05,1.0,20.0
-5231,"['NODE', 'REACT', 'SQL']","['C', 'EXPRESS']","['NODE', 'REACT', 'SQL']->['C', 'EXPRESS']",0.05,1.0,10.0
-5230,"['C', 'EXPRESS', 'NODE', 'REACT']",['SQL'],"['C', 'EXPRESS', 'NODE', 'REACT']->['SQL']",0.05,1.0,5.0
-5229,"['C', 'EXPRESS', 'NODE', 'SQL']",['REACT'],"['C', 'EXPRESS', 'NODE', 'SQL']->['REACT']",0.05,1.0,6.666666666666667
-5228,"['C', 'EXPRESS', 'REACT', 'SQL']",['NODE'],"['C', 'EXPRESS', 'REACT', 'SQL']->['NODE']",0.05,1.0,20.0
-5227,"['C', 'NODE', 'REACT', 'SQL']",['EXPRESS'],"['C', 'NODE', 'REACT', 'SQL']->['EXPRESS']",0.05,1.0,10.0
-5226,"['EXPRESS', 'NODE', 'REACT', 'SQL']",['C'],"['EXPRESS', 'NODE', 'REACT', 'SQL']->['C']",0.05,1.0,2.2222222222222223
-5224,['NODE'],"['C', 'EXPRESS', 'PYTHON', 'SQL']","['NODE']->['C', 'EXPRESS', 'PYTHON', 'SQL']",0.05,1.0,20.0
-5221,"['C', 'NODE']","['EXPRESS', 'PYTHON', 'SQL']","['C', 'NODE']->['EXPRESS', 'PYTHON', 'SQL']",0.05,1.0,20.0
-5219,"['EXPRESS', 'NODE']","['C', 'PYTHON', 'SQL']","['EXPRESS', 'NODE']->['C', 'PYTHON', 'SQL']",0.05,1.0,20.0
-5218,"['EXPRESS', 'PYTHON']","['C', 'NODE', 'SQL']","['EXPRESS', 'PYTHON']->['C', 'NODE', 'SQL']",0.05,1.0,20.0
-5217,"['EXPRESS', 'SQL']","['C', 'NODE', 'PYTHON']","['EXPRESS', 'SQL']->['C', 'NODE', 'PYTHON']",0.05,1.0,20.0
-5216,"['NODE', 'PYTHON']","['C', 'EXPRESS', 'SQL']","['NODE', 'PYTHON']->['C', 'EXPRESS', 'SQL']",0.05,1.0,20.0
-5215,"['NODE', 'SQL']","['C', 'EXPRESS', 'PYTHON']","['NODE', 'SQL']->['C', 'EXPRESS', 'PYTHON']",0.05,1.0,20.0
-5178,"['EXPRESS', 'PYTHON', 'REACT']","['C', 'NODE']","['EXPRESS', 'PYTHON', 'REACT']->['C', 'NODE']",0.05,1.0,20.0
-5176,"['C', 'EXPRESS', 'NODE', 'PYTHON']",['REACT'],"['C', 'EXPRESS', 'NODE', 'PYTHON']->['REACT']",0.05,1.0,6.666666666666667
-5245,"['EXPRESS', 'REACT']","['C', 'NODE', 'SQL']","['EXPRESS', 'REACT']->['C', 'NODE', 'SQL']",0.05,1.0,20.0
-5121,"['CSS', 'JAVASCRIPT', 'SQL']","['C', 'HTML']","['CSS', 'JAVASCRIPT', 'SQL']->['C', 'HTML']",0.1,1.0,10.0
-5133,"['CSS', 'SQL']","['C', 'HTML', 'JAVASCRIPT']","['CSS', 'SQL']->['C', 'HTML', 'JAVASCRIPT']",0.1,1.0,10.0
-5132,"['HTML', 'JAVASCRIPT']","['C', 'CSS', 'SQL']","['HTML', 'JAVASCRIPT']->['C', 'CSS', 'SQL']",0.1,1.0,10.0
-5131,"['HTML', 'SQL']","['C', 'CSS', 'JAVASCRIPT']","['HTML', 'SQL']->['C', 'CSS', 'JAVASCRIPT']",0.1,1.0,10.0
-5130,"['JAVASCRIPT', 'SQL']","['C', 'CSS', 'HTML']","['JAVASCRIPT', 'SQL']->['C', 'CSS', 'HTML']",0.1,1.0,10.0
-5129,"['C', 'CSS', 'HTML']","['JAVASCRIPT', 'SQL']","['C', 'CSS', 'HTML']->['JAVASCRIPT', 'SQL']",0.1,1.0,10.0
-5128,"['C', 'CSS', 'JAVASCRIPT']","['HTML', 'SQL']","['C', 'CSS', 'JAVASCRIPT']->['HTML', 'SQL']",0.1,1.0,10.0
-5127,"['C', 'CSS', 'SQL']","['HTML', 'JAVASCRIPT']","['C', 'CSS', 'SQL']->['HTML', 'JAVASCRIPT']",0.1,1.0,10.0
-5126,"['C', 'HTML', 'JAVASCRIPT']","['CSS', 'SQL']","['C', 'HTML', 'JAVASCRIPT']->['CSS', 'SQL']",0.1,1.0,10.0
-5125,"['C', 'HTML', 'SQL']","['CSS', 'JAVASCRIPT']","['C', 'HTML', 'SQL']->['CSS', 'JAVASCRIPT']",0.1,1.0,10.0
-5124,"['C', 'JAVASCRIPT', 'SQL']","['CSS', 'HTML']","['C', 'JAVASCRIPT', 'SQL']->['CSS', 'HTML']",0.1,1.0,10.0
-5123,"['CSS', 'HTML', 'JAVASCRIPT']","['C', 'SQL']","['CSS', 'HTML', 'JAVASCRIPT']->['C', 'SQL']",0.1,1.0,5.0
-5122,"['CSS', 'HTML', 'SQL']","['C', 'JAVASCRIPT']","['CSS', 'HTML', 'SQL']->['C', 'JAVASCRIPT']",0.1,1.0,6.666666666666667
-5120,"['HTML', 'JAVASCRIPT', 'SQL']","['C', 'CSS']","['HTML', 'JAVASCRIPT', 'SQL']->['C', 'CSS']",0.1,1.0,10.0
-5175,"['C', 'EXPRESS', 'NODE', 'REACT']",['PYTHON'],"['C', 'EXPRESS', 'NODE', 'REACT']->['PYTHON']",0.05,1.0,10.0
-5119,"['C', 'CSS', 'HTML', 'JAVASCRIPT']",['SQL'],"['C', 'CSS', 'HTML', 'JAVASCRIPT']->['SQL']",0.1,1.0,5.0
-5118,"['C', 'CSS', 'HTML', 'SQL']",['JAVASCRIPT'],"['C', 'CSS', 'HTML', 'SQL']->['JAVASCRIPT']",0.1,1.0,6.666666666666667
-5117,"['C', 'CSS', 'JAVASCRIPT', 'SQL']",['HTML'],"['C', 'CSS', 'JAVASCRIPT', 'SQL']->['HTML']",0.1,1.0,4.0
-5116,"['C', 'HTML', 'JAVASCRIPT', 'SQL']",['CSS'],"['C', 'HTML', 'JAVASCRIPT', 'SQL']->['CSS']",0.1,1.0,10.0
-5115,"['CSS', 'HTML', 'JAVASCRIPT', 'SQL']",['C'],"['CSS', 'HTML', 'JAVASCRIPT', 'SQL']->['C']",0.1,1.0,2.2222222222222223
-5114,['CSS'],"['C', 'HTML', 'JAVA', 'SQL']","['CSS']->['C', 'HTML', 'JAVA', 'SQL']",0.1,1.0,10.0
-5111,"['C', 'CSS']","['HTML', 'JAVA', 'SQL']","['C', 'CSS']->['HTML', 'JAVA', 'SQL']",0.1,1.0,10.0
-5110,"['C', 'HTML']","['CSS', 'JAVA', 'SQL']","['C', 'HTML']->['CSS', 'JAVA', 'SQL']",0.1,1.0,10.0
-5107,"['CSS', 'HTML']","['C', 'JAVA', 'SQL']","['CSS', 'HTML']->['C', 'JAVA', 'SQL']",0.1,1.0,10.0
-5106,"['CSS', 'JAVA']","['C', 'HTML', 'SQL']","['CSS', 'JAVA']->['C', 'HTML', 'SQL']",0.1,1.0,10.0
-5105,"['CSS', 'SQL']","['C', 'HTML', 'JAVA']","['CSS', 'SQL']->['C', 'HTML', 'JAVA']",0.1,1.0,10.0
-5104,"['HTML', 'JAVA']","['C', 'CSS', 'SQL']","['HTML', 'JAVA']->['C', 'CSS', 'SQL']",0.1,1.0,10.0
-5134,"['CSS', 'JAVASCRIPT']","['C', 'HTML', 'SQL']","['CSS', 'JAVASCRIPT']->['C', 'HTML', 'SQL']",0.1,1.0,10.0
-5135,"['CSS', 'HTML']","['C', 'JAVASCRIPT', 'SQL']","['CSS', 'HTML']->['C', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
-5138,"['C', 'HTML']","['CSS', 'JAVASCRIPT', 'SQL']","['C', 'HTML']->['CSS', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
-5139,"['C', 'CSS']","['HTML', 'JAVASCRIPT', 'SQL']","['C', 'CSS']->['HTML', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
-5174,"['C', 'EXPRESS', 'PYTHON', 'REACT']",['NODE'],"['C', 'EXPRESS', 'PYTHON', 'REACT']->['NODE']",0.05,1.0,20.0
-5173,"['C', 'NODE', 'PYTHON', 'REACT']",['EXPRESS'],"['C', 'NODE', 'PYTHON', 'REACT']->['EXPRESS']",0.05,1.0,10.0
-5172,"['EXPRESS', 'NODE', 'PYTHON', 'REACT']",['C'],"['EXPRESS', 'NODE', 'PYTHON', 'REACT']->['C']",0.05,1.0,2.2222222222222223
-5171,['CSS'],"['C', 'JAVA', 'JAVASCRIPT', 'SQL']","['CSS']->['C', 'JAVA', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
-5167,"['C', 'CSS']","['JAVA', 'JAVASCRIPT', 'SQL']","['C', 'CSS']->['JAVA', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
-5163,"['CSS', 'JAVA']","['C', 'JAVASCRIPT', 'SQL']","['CSS', 'JAVA']->['C', 'JAVASCRIPT', 'SQL']",0.1,1.0,10.0
-5162,"['CSS', 'JAVASCRIPT']","['C', 'JAVA', 'SQL']","['CSS', 'JAVASCRIPT']->['C', 'JAVA', 'SQL']",0.1,1.0,10.0
-5161,"['CSS', 'SQL']","['C', 'JAVA', 'JAVASCRIPT']","['CSS', 'SQL']->['C', 'JAVA', 'JAVASCRIPT']",0.1,1.0,6.666666666666667
-5159,"['JAVA', 'SQL']","['C', 'CSS', 'JAVASCRIPT']","['JAVA', 'SQL']->['C', 'CSS', 'JAVASCRIPT']",0.1,1.0,10.0
+0,['API Gateway'],['API'],['API Gateway']->['API'],0.05263157894736842,1.0,19.0
+2789,"['HTML', 'JavaScript', 'Kotlin', 'React Native']",['Android'],"['HTML', 'JavaScript', 'Kotlin', 'React Native']->['Android']",0.15789473684210525,1.0,3.8
+2775,"['Google Cloud', 'Strategy']","['AWS', 'Firebase', 'OOP']","['Google Cloud', 'Strategy']->['AWS', 'Firebase', 'OOP']",0.05263157894736842,1.0,19.0
+2776,"['Google Cloud', 'OOP']","['AWS', 'Firebase', 'Strategy']","['Google Cloud', 'OOP']->['AWS', 'Firebase', 'Strategy']",0.05263157894736842,1.0,19.0
+2777,"['Firebase', 'Strategy']","['AWS', 'Google Cloud', 'OOP']","['Firebase', 'Strategy']->['AWS', 'Google Cloud', 'OOP']",0.05263157894736842,1.0,19.0
+2778,"['Firebase', 'OOP']","['AWS', 'Google Cloud', 'Strategy']","['Firebase', 'OOP']->['AWS', 'Google Cloud', 'Strategy']",0.05263157894736842,1.0,19.0
+2779,"['Firebase', 'Google Cloud']","['AWS', 'OOP', 'Strategy']","['Firebase', 'Google Cloud']->['AWS', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2780,"['AWS', 'Strategy']","['Firebase', 'Google Cloud', 'OOP']","['AWS', 'Strategy']->['Firebase', 'Google Cloud', 'OOP']",0.05263157894736842,1.0,19.0
+2781,"['AWS', 'OOP']","['Firebase', 'Google Cloud', 'Strategy']","['AWS', 'OOP']->['Firebase', 'Google Cloud', 'Strategy']",0.05263157894736842,1.0,19.0
+2782,"['AWS', 'Google Cloud']","['Firebase', 'OOP', 'Strategy']","['AWS', 'Google Cloud']->['Firebase', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2783,"['AWS', 'Firebase']","['Google Cloud', 'OOP', 'Strategy']","['AWS', 'Firebase']->['Google Cloud', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2784,['Strategy'],"['AWS', 'Firebase', 'Google Cloud', 'OOP']","['Strategy']->['AWS', 'Firebase', 'Google Cloud', 'OOP']",0.05263157894736842,1.0,19.0
+2785,['OOP'],"['AWS', 'Firebase', 'Google Cloud', 'Strategy']","['OOP']->['AWS', 'Firebase', 'Google Cloud', 'Strategy']",0.05263157894736842,1.0,19.0
+2786,['Google Cloud'],"['AWS', 'Firebase', 'OOP', 'Strategy']","['Google Cloud']->['AWS', 'Firebase', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2787,['Firebase'],"['AWS', 'Google Cloud', 'OOP', 'Strategy']","['Firebase']->['AWS', 'Google Cloud', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2790,"['Android', 'JavaScript', 'Kotlin', 'React Native']",['HTML'],"['Android', 'JavaScript', 'Kotlin', 'React Native']->['HTML']",0.15789473684210525,1.0,6.333333333333333
+2805,"['JavaScript', 'React Native']","['Android', 'HTML', 'Kotlin']","['JavaScript', 'React Native']->['Android', 'HTML', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+2791,"['Android', 'HTML', 'Kotlin', 'React Native']",['JavaScript'],"['Android', 'HTML', 'Kotlin', 'React Native']->['JavaScript']",0.15789473684210525,1.0,6.333333333333333
+2792,"['Android', 'HTML', 'JavaScript', 'React Native']",['Kotlin'],"['Android', 'HTML', 'JavaScript', 'React Native']->['Kotlin']",0.15789473684210525,1.0,4.749999999999999
+2793,"['Android', 'HTML', 'JavaScript', 'Kotlin']",['React Native'],"['Android', 'HTML', 'JavaScript', 'Kotlin']->['React Native']",0.15789473684210525,1.0,6.333333333333333
+2794,"['JavaScript', 'Kotlin', 'React Native']","['Android', 'HTML']","['JavaScript', 'Kotlin', 'React Native']->['Android', 'HTML']",0.15789473684210525,1.0,6.333333333333333
+2795,"['HTML', 'Kotlin', 'React Native']","['Android', 'JavaScript']","['HTML', 'Kotlin', 'React Native']->['Android', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+2796,"['HTML', 'JavaScript', 'React Native']","['Android', 'Kotlin']","['HTML', 'JavaScript', 'React Native']->['Android', 'Kotlin']",0.15789473684210525,1.0,4.749999999999999
+2797,"['HTML', 'JavaScript', 'Kotlin']","['Android', 'React Native']","['HTML', 'JavaScript', 'Kotlin']->['Android', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2798,"['Android', 'Kotlin', 'React Native']","['HTML', 'JavaScript']","['Android', 'Kotlin', 'React Native']->['HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+2799,"['Android', 'JavaScript', 'React Native']","['HTML', 'Kotlin']","['Android', 'JavaScript', 'React Native']->['HTML', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+2800,"['Android', 'JavaScript', 'Kotlin']","['HTML', 'React Native']","['Android', 'JavaScript', 'Kotlin']->['HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2801,"['Android', 'HTML', 'React Native']","['JavaScript', 'Kotlin']","['Android', 'HTML', 'React Native']->['JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+2802,"['Android', 'HTML', 'Kotlin']","['JavaScript', 'React Native']","['Android', 'HTML', 'Kotlin']->['JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2803,"['Android', 'HTML', 'JavaScript']","['Kotlin', 'React Native']","['Android', 'HTML', 'JavaScript']->['Kotlin', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2774,"['OOP', 'Strategy']","['AWS', 'Firebase', 'Google Cloud']","['OOP', 'Strategy']->['AWS', 'Firebase', 'Google Cloud']",0.05263157894736842,1.0,19.0
+2773,"['AWS', 'Firebase', 'Google Cloud']","['OOP', 'Strategy']","['AWS', 'Firebase', 'Google Cloud']->['OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2772,"['AWS', 'Firebase', 'OOP']","['Google Cloud', 'Strategy']","['AWS', 'Firebase', 'OOP']->['Google Cloud', 'Strategy']",0.05263157894736842,1.0,19.0
+2771,"['AWS', 'Firebase', 'Strategy']","['Google Cloud', 'OOP']","['AWS', 'Firebase', 'Strategy']->['Google Cloud', 'OOP']",0.05263157894736842,1.0,19.0
+2743,"['AWS', 'Figma', 'Google Cloud']","['OOP', 'Strategy']","['AWS', 'Figma', 'Google Cloud']->['OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2744,"['OOP', 'Strategy']","['AWS', 'Figma', 'Google Cloud']","['OOP', 'Strategy']->['AWS', 'Figma', 'Google Cloud']",0.05263157894736842,1.0,19.0
+2745,"['Google Cloud', 'Strategy']","['AWS', 'Figma', 'OOP']","['Google Cloud', 'Strategy']->['AWS', 'Figma', 'OOP']",0.05263157894736842,1.0,19.0
+2746,"['Google Cloud', 'OOP']","['AWS', 'Figma', 'Strategy']","['Google Cloud', 'OOP']->['AWS', 'Figma', 'Strategy']",0.05263157894736842,1.0,19.0
+2747,"['Figma', 'Strategy']","['AWS', 'Google Cloud', 'OOP']","['Figma', 'Strategy']->['AWS', 'Google Cloud', 'OOP']",0.05263157894736842,1.0,19.0
+2748,"['Figma', 'OOP']","['AWS', 'Google Cloud', 'Strategy']","['Figma', 'OOP']->['AWS', 'Google Cloud', 'Strategy']",0.05263157894736842,1.0,19.0
+2749,"['Figma', 'Google Cloud']","['AWS', 'OOP', 'Strategy']","['Figma', 'Google Cloud']->['AWS', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2750,"['AWS', 'Strategy']","['Figma', 'Google Cloud', 'OOP']","['AWS', 'Strategy']->['Figma', 'Google Cloud', 'OOP']",0.05263157894736842,1.0,19.0
+2751,"['AWS', 'OOP']","['Figma', 'Google Cloud', 'Strategy']","['AWS', 'OOP']->['Figma', 'Google Cloud', 'Strategy']",0.05263157894736842,1.0,19.0
+2752,"['AWS', 'Google Cloud']","['Figma', 'OOP', 'Strategy']","['AWS', 'Google Cloud']->['Figma', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2753,"['AWS', 'Figma']","['Google Cloud', 'OOP', 'Strategy']","['AWS', 'Figma']->['Google Cloud', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2754,['Strategy'],"['AWS', 'Figma', 'Google Cloud', 'OOP']","['Strategy']->['AWS', 'Figma', 'Google Cloud', 'OOP']",0.05263157894736842,1.0,19.0
+2755,['OOP'],"['AWS', 'Figma', 'Google Cloud', 'Strategy']","['OOP']->['AWS', 'Figma', 'Google Cloud', 'Strategy']",0.05263157894736842,1.0,19.0
+2756,['Google Cloud'],"['AWS', 'Figma', 'OOP', 'Strategy']","['Google Cloud']->['AWS', 'Figma', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2757,['Figma'],"['AWS', 'Google Cloud', 'OOP', 'Strategy']","['Figma']->['AWS', 'Google Cloud', 'OOP', 'Strategy']",0.05263157894736842,1.0,19.0
+2759,"['Firebase', 'Google Cloud', 'OOP', 'Strategy']",['AWS'],"['Firebase', 'Google Cloud', 'OOP', 'Strategy']->['AWS']",0.05263157894736842,1.0,9.5
+2760,"['AWS', 'Google Cloud', 'OOP', 'Strategy']",['Firebase'],"['AWS', 'Google Cloud', 'OOP', 'Strategy']->['Firebase']",0.05263157894736842,1.0,19.0
+2761,"['AWS', 'Firebase', 'OOP', 'Strategy']",['Google Cloud'],"['AWS', 'Firebase', 'OOP', 'Strategy']->['Google Cloud']",0.05263157894736842,1.0,19.0
+2762,"['AWS', 'Firebase', 'Google Cloud', 'Strategy']",['OOP'],"['AWS', 'Firebase', 'Google Cloud', 'Strategy']->['OOP']",0.05263157894736842,1.0,19.0
+2763,"['AWS', 'Firebase', 'Google Cloud', 'OOP']",['Strategy'],"['AWS', 'Firebase', 'Google Cloud', 'OOP']->['Strategy']",0.05263157894736842,1.0,19.0
+2764,"['Google Cloud', 'OOP', 'Strategy']","['AWS', 'Firebase']","['Google Cloud', 'OOP', 'Strategy']->['AWS', 'Firebase']",0.05263157894736842,1.0,19.0
+2765,"['Firebase', 'OOP', 'Strategy']","['AWS', 'Google Cloud']","['Firebase', 'OOP', 'Strategy']->['AWS', 'Google Cloud']",0.05263157894736842,1.0,19.0
+2766,"['Firebase', 'Google Cloud', 'Strategy']","['AWS', 'OOP']","['Firebase', 'Google Cloud', 'Strategy']->['AWS', 'OOP']",0.05263157894736842,1.0,19.0
+2767,"['Firebase', 'Google Cloud', 'OOP']","['AWS', 'Strategy']","['Firebase', 'Google Cloud', 'OOP']->['AWS', 'Strategy']",0.05263157894736842,1.0,19.0
+2768,"['AWS', 'OOP', 'Strategy']","['Firebase', 'Google Cloud']","['AWS', 'OOP', 'Strategy']->['Firebase', 'Google Cloud']",0.05263157894736842,1.0,19.0
+2769,"['AWS', 'Google Cloud', 'Strategy']","['Firebase', 'OOP']","['AWS', 'Google Cloud', 'Strategy']->['Firebase', 'OOP']",0.05263157894736842,1.0,19.0
+2770,"['AWS', 'Google Cloud', 'OOP']","['Firebase', 'Strategy']","['AWS', 'Google Cloud', 'OOP']->['Firebase', 'Strategy']",0.05263157894736842,1.0,19.0
+2804,"['Kotlin', 'React Native']","['Android', 'HTML', 'JavaScript']","['Kotlin', 'React Native']->['Android', 'HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+2806,"['JavaScript', 'Kotlin']","['Android', 'HTML', 'React Native']","['JavaScript', 'Kotlin']->['Android', 'HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2612,"['API Gateway', 'AWS', 'Container', 'Terraform']",['Elastic'],"['API Gateway', 'AWS', 'Container', 'Terraform']->['Elastic']",0.05263157894736842,1.0,19.0
+2859,"['Android', 'JavaScript', 'TDD']","['HTML', 'React Native']","['Android', 'JavaScript', 'TDD']->['HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2843,"['Android', 'HTML']","['JavaScript', 'Kotlin', 'TDD']","['Android', 'HTML']->['JavaScript', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2846,['JavaScript'],"['Android', 'HTML', 'Kotlin', 'TDD']","['JavaScript']->['Android', 'HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2847,['HTML'],"['Android', 'JavaScript', 'Kotlin', 'TDD']","['HTML']->['Android', 'JavaScript', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2849,"['HTML', 'JavaScript', 'React Native', 'TDD']",['Android'],"['HTML', 'JavaScript', 'React Native', 'TDD']->['Android']",0.15789473684210525,1.0,3.8
+2850,"['Android', 'JavaScript', 'React Native', 'TDD']",['HTML'],"['Android', 'JavaScript', 'React Native', 'TDD']->['HTML']",0.15789473684210525,1.0,6.333333333333333
+2851,"['Android', 'HTML', 'React Native', 'TDD']",['JavaScript'],"['Android', 'HTML', 'React Native', 'TDD']->['JavaScript']",0.15789473684210525,1.0,6.333333333333333
+2852,"['Android', 'HTML', 'JavaScript', 'TDD']",['React Native'],"['Android', 'HTML', 'JavaScript', 'TDD']->['React Native']",0.15789473684210525,1.0,6.333333333333333
+2853,"['Android', 'HTML', 'JavaScript', 'React Native']",['TDD'],"['Android', 'HTML', 'JavaScript', 'React Native']->['TDD']",0.15789473684210525,1.0,4.749999999999999
+2854,"['JavaScript', 'React Native', 'TDD']","['Android', 'HTML']","['JavaScript', 'React Native', 'TDD']->['Android', 'HTML']",0.15789473684210525,1.0,6.333333333333333
+2855,"['HTML', 'React Native', 'TDD']","['Android', 'JavaScript']","['HTML', 'React Native', 'TDD']->['Android', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+2856,"['HTML', 'JavaScript', 'TDD']","['Android', 'React Native']","['HTML', 'JavaScript', 'TDD']->['Android', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2857,"['HTML', 'JavaScript', 'React Native']","['Android', 'TDD']","['HTML', 'JavaScript', 'React Native']->['Android', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2858,"['Android', 'React Native', 'TDD']","['HTML', 'JavaScript']","['Android', 'React Native', 'TDD']->['HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+2860,"['Android', 'JavaScript', 'React Native']","['HTML', 'TDD']","['Android', 'JavaScript', 'React Native']->['HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2807,"['HTML', 'React Native']","['Android', 'JavaScript', 'Kotlin']","['HTML', 'React Native']->['Android', 'JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+2861,"['Android', 'HTML', 'TDD']","['JavaScript', 'React Native']","['Android', 'HTML', 'TDD']->['JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2862,"['Android', 'HTML', 'React Native']","['JavaScript', 'TDD']","['Android', 'HTML', 'React Native']->['JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2863,"['Android', 'HTML', 'JavaScript']","['React Native', 'TDD']","['Android', 'HTML', 'JavaScript']->['React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2864,"['React Native', 'TDD']","['Android', 'HTML', 'JavaScript']","['React Native', 'TDD']->['Android', 'HTML', 'JavaScript']",0.15789473684210525,1.0,6.333333333333333
+2865,"['JavaScript', 'TDD']","['Android', 'HTML', 'React Native']","['JavaScript', 'TDD']->['Android', 'HTML', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2866,"['JavaScript', 'React Native']","['Android', 'HTML', 'TDD']","['JavaScript', 'React Native']->['Android', 'HTML', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2867,"['HTML', 'TDD']","['Android', 'JavaScript', 'React Native']","['HTML', 'TDD']->['Android', 'JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2868,"['HTML', 'React Native']","['Android', 'JavaScript', 'TDD']","['HTML', 'React Native']->['Android', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2869,"['HTML', 'JavaScript']","['Android', 'React Native', 'TDD']","['HTML', 'JavaScript']->['Android', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2870,"['Android', 'TDD']","['HTML', 'JavaScript', 'React Native']","['Android', 'TDD']->['HTML', 'JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2871,"['Android', 'React Native']","['HTML', 'JavaScript', 'TDD']","['Android', 'React Native']->['HTML', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2872,"['Android', 'JavaScript']","['HTML', 'React Native', 'TDD']","['Android', 'JavaScript']->['HTML', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2873,"['Android', 'HTML']","['JavaScript', 'React Native', 'TDD']","['Android', 'HTML']->['JavaScript', 'React Native', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2842,"['Android', 'JavaScript']","['HTML', 'Kotlin', 'TDD']","['Android', 'JavaScript']->['HTML', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2840,"['Android', 'TDD']","['HTML', 'JavaScript', 'Kotlin']","['Android', 'TDD']->['HTML', 'JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
+2839,"['HTML', 'JavaScript']","['Android', 'Kotlin', 'TDD']","['HTML', 'JavaScript']->['Android', 'Kotlin', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2838,"['HTML', 'Kotlin']","['Android', 'JavaScript', 'TDD']","['HTML', 'Kotlin']->['Android', 'JavaScript', 'TDD']",0.15789473684210525,1.0,6.333333333333333
+2808,"['HTML', 'Kotlin']","['Android', 'JavaScript', 'React Native']","['HTML', 'Kotlin']->['Android', 'JavaScript', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2809,"['HTML', 'JavaScript']","['Android', 'Kotlin', 'React Native']","['HTML', 'JavaScript']->['Android', 'Kotlin', 'React Native']",0.15789473684210525,1.0,6.333333333333333
+2810,"['Android', 'React Native']","['HTML', 'JavaScript', 'Kotlin']","['Android', 'React Native']->['HTML', 'JavaScript', 'Kotlin']",0.15789473684210525,1.0,6.333333333333333
