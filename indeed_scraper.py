@@ -146,7 +146,7 @@ for c in companies:
         reviewDetails = pd.DataFrame(columns=[REVIEWCOLUMNONE, REVIEWCOLUMNTWO, REVIEWCOLUMNTHREE])
         
         try: 
-            reviewCount = 100
+            reviewCount = 50
             count = 0
             print(f"Beginning attempt {try_count} of scraping {companyName} reviews...")
             fullReview(companyURL)
