@@ -64,12 +64,12 @@ def scrape_jobs(url):
             next_button = driver.find_elements(By.XPATH, "//a[contains(@class, 'page-link')]")[-2]
             print(current_button)
 
-            break
-            # if next_button.text != "⟩":
-            #     break
-            # else:
-            #     next_button.click()
-            #     time.sleep(2)
+            # break
+            if next_button.text != "⟩":
+                break
+            else:
+                next_button.click()
+                time.sleep(2)
 
         except Exception as e:
             print(f"Error occurred: {e}")
