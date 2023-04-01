@@ -44,6 +44,7 @@ def scrape_jobs(url):
                 company = job.find_elements(By.XPATH, ".//p[contains(@class, 'companynameAndRating')]/span")[0].text
                 stacks = job.find_elements(By.XPATH, ".//span[contains(@class, 'techStackContainer')]")
                 description = job.find_elements(By.XPATH, "//div[contains(@class, 'jobDescriptionContent')]")[0].text
+                src = job.find_elements(By.XPATH, "//img[contains(@class, 'companyAvatar')]")[0].get_attribute("src")
                 stacks_array = []
                 for stack in stacks:
                     stacks_array.append(stack.text)
@@ -53,6 +54,7 @@ def scrape_jobs(url):
                     salary_amt = salary[0].text
                 job_data.append({
                     'company': company,
+                    'img': src,
                     'title': title,
                     'stacks': stacks_array,
                     'salary': salary_amt,
@@ -96,7 +98,7 @@ if __name__ == "__main__":
 
 
     # with open("jobs.json", "w") as outfile:
-        # json.dump(jobs, outfile)
+    #     json.dump(jobs, outfile)
     
     
     
