@@ -164,6 +164,9 @@ for c in companies:
         except:
             print(f"Attempt {try_count} of scraping {companyName} failed.")
             try_count += 1
+        
+        driver.execute_script("window.open('');")
+        driver.switch_to.window(driver.window_handles[-1])
 
     jreviews = reviewDetails.to_json(orient="records")
     parsedV = json.loads(jreviews)
