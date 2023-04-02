@@ -136,7 +136,7 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--start-fullscreen')
 chrome_options.add_argument('--no-sandbox')
 
-driver = webdriver.Chrome(options=chrome_options)
+# driver = webdriver.Chrome(options=chrome_options)
 
 start = time.time()
 print("Beginning scraper now...")
@@ -144,6 +144,8 @@ print("Beginning scraper now...")
 cdict = {}
 
 for c in companies:
+    driver = webdriver.Chrome(options=chrome_options)
+    
     try_count = 1
 
     companyName = c
@@ -175,6 +177,8 @@ for c in companies:
     print(f"Scraping of {companyName} reviews completed.")
     print(f"{len(parsedV)} reviews scraped.\n")
 
+    driver.quit()
+
 # export file in json
 # save_json("indeedReviews.json",cdict)
 
@@ -197,4 +201,4 @@ print("\n\n===========================================")
 print("TOTAL TIME TAKEN: ",end - start)
 print("===========================================\n\n")
 
-driver.quit()
+# driver.quit()
