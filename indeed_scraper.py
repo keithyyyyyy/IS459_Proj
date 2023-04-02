@@ -14,7 +14,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
-import random
 
 load_dotenv()
 access_key_id = os.getenv("ACCESS_KEY_ID")
@@ -77,16 +76,8 @@ def fullReview(company):
     # wait for initialize, in seconds
     wait = WebDriverWait(driver, 10)
 
-    # get the size of the browser window
-    window_size = driver.get_window_size()
-
-    # generate random coordinates within the browser window
-    x_coord = random.randint(0, window_size['width'])
-    y_coord = random.randint(0, window_size['height'])
-
-    # perform a click action at the random coordinates using ActionChains
     action_chains = ActionChains(driver)
-    action_chains.move_by_offset(x_coord, y_coord).click().perform()
+    action_chains.move_by_offset(100, 100).click().perform()
 
     # get total review count once
     if count == 0:
