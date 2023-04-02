@@ -68,25 +68,26 @@ def fullReview(company):
     global companyURL
     global reviewCount
     global count
+    global numOfReview
 
     driver.get(company)
 
     # wait for initialize, in seconds
     wait = WebDriverWait(driver, 10)
 
-    # # get total review count once
-    # if count == 0:
-    #     try:
-    #         # get review count
-    #         reviewCountTag = wait.until(EC.visibility_of_element_located((By.XPATH,"//div[@class='css-r5p2ca eu4oa1w0']/span")))
-    #         reviewCountDesc = reviewCountTag.text
-    #         reviewCountText = reviewCountDesc.split(" ")[2]
+    # get total review count once
+    if count == 0:
+        try:
+            # get review count
+            reviewCountTag = wait.until(EC.visibility_of_element_located((By.XPATH,"//div[@class='css-r5p2ca eu4oa1w0']/span")))
+            reviewCountDesc = reviewCountTag.text
+            reviewCountText = reviewCountDesc.split(" ")[2]
         
-    #         reviewCountTextSplit = reviewCountText.split(",")
-    #         for i in reviewCountTextSplit:
-    #             reviewCount += int(i)
-    #     except:
-    #         print("Error getting review count.")
+            reviewCountTextSplit = reviewCountText.split(",")
+            for i in reviewCountTextSplit:
+                numOfReview += int(i)
+        except:
+            print("Error getting review count.")
 
     reviewsContainer = wait.until(EC.visibility_of_element_located((By.XPATH,"//div[@class='cmp-ReviewsList']")))
     wait.until(EC.presence_of_all_elements_located((By.XPATH,"//div[@class='cmp-ReviewsList']")))
@@ -105,7 +106,9 @@ def fullReview(company):
     # check if next page exist
     try:
         count+=20
-        if count <= reviewCount:
+        if numOfReview == 0:
+            numOfReview = count
+        if count <= reviewCount and count <= numOfReview:
             fullReview(companyURL + "&start=" + str(count))
     except:
         print("There are no more pages of reviews.")
@@ -148,6 +151,7 @@ for c in companies:
         try: 
             reviewCount = 50
             count = 0
+            numOfReview = 0
             print(f"Beginning attempt {try_count} of scraping {companyName} reviews...")
             fullReview(companyURL)
 
@@ -162,6 +166,7 @@ for c in companies:
     cdict[companyName] = parsedV
 
     print(f"Scraping of {companyName} reviews completed.")
+    print(f"{len(parsedV)} reviews scraped.\n")
 
 # export file in json
 # save_json("indeedReviews.json",cdict)
