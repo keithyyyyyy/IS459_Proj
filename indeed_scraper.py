@@ -4,6 +4,7 @@ import os
 import time
 from datetime import datetime, timedelta
 import boto3
+import requests
 import pandas as pd
 import json
 
@@ -20,9 +21,12 @@ access_key_id = os.getenv("ACCESS_KEY_ID")
 secret_access_key = os.getenv("SECRET_ACCESS_KEY")
 
 # read json file for companies to scrape
-f = open('indeed_companies.json')
-# f = open('./companies_to_scrape/indeed.json')
-companies = json.load(f)
+url = 'http://35.171.48.20:3001/api/get_companies'
+response = requests.get(url)
+companies = response.json()
+
+# f = open('indeed_companies.json')
+# companies = json.load(f)
 
 # review variables
 REVIEWCOLUMNONE = "Rating"
