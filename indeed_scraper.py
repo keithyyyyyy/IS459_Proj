@@ -19,9 +19,10 @@ from selenium.webdriver.common.action_chains import ActionChains
 load_dotenv()
 access_key_id = os.getenv("ACCESS_KEY_ID")
 secret_access_key = os.getenv("SECRET_ACCESS_KEY")
+mongo_companies_route = os.getenv("MONGO_COMPANIES_ROUTE")
 
 # read json file for companies to scrape
-url = 'http://35.171.48.20:3001/api/get_companies'
+url = mongo_companies_route
 response = requests.get(url)
 companies = response.json()
 
